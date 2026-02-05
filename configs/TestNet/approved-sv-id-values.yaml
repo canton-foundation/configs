@@ -16,10 +16,10 @@ approvedSvIdentities:
     rewardWeightBps: 13_6125
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 165_5000
+    rewardWeightBps: 185_5000
     extraBeneficiaries:
       - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1
-        weight: 1_4200
+        weight: 0_9700
       - beneficiary: "GSF-SVRewards-1::1220224995ee62e3176d395b1ae1fd95af8132b1da754e20af24e1c73074d936dced"
         weight: 10_0000
       - beneficiary: "thetie-validator-0::1220eba2eab5c94c78de4a64f600c9eab445af50f59e20bca8f555abbd53748d5223" # The Tie
@@ -92,9 +92,13 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "DTCC-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # DTCC CIP-0083 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
+      - beneficiary: "Mesh-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Mesh CIP-0095 # escrow party_id added to the GhostSV-validator-1
+        weight: 10_0000
+      - beneficiary: "Nasdaq-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Nasdaq CIP-0097 # escrow party_id added to the GhostSV-validator-1
+        weight: 10_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
-    rewardWeightBps: 10_0000
+    rewardWeightBps: 14_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f44bc7589a682afe95a21d::12208fdbf6156f607c104512ce12fcb382ce3ec3116e7aa5ddb02b7fce237efd4843" # MPCH
         weight: 1_0000
@@ -102,6 +106,8 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Blockdaemon-ghost-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: "50000"
+      - beneficiary: "Tharimmune-ghost-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # Tharimmune, Inc. CIP-0102 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 4_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM/I3om2cE1ccDhYdy3wwKys3afBskv/OsRe8Jr52RywZOke+TfNbqQYcltATswgDi3HPdJUG3IEgo4Fh2vfl+g==
     rewardWeightBps: 10_0000
