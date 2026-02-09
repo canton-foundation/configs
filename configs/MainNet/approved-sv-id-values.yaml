@@ -4,7 +4,7 @@ approvedSvIdentities:
     rewardWeightBps: 185_5000
     extraBeneficiaries:
       - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 0.92 (Fireblocks)
-        weight: 0_9700
+        weight: 1_0617
       - beneficiary: "GSF-SVRewards-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: 10_0000
       - beneficiary: "validator_Broadridge::1220b0008ea5531b9e47d3315a822ca8b923b5bdd568c934557402d7160b8af4815d"
@@ -86,9 +86,9 @@ approvedSvIdentities:
       - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
         weight: 2_5000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 2_5000
+        weight: 5_4083
       - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
-        weight: 4_0000
+        weight: 1_0000
       - beneficiary: "Zenith-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zenith CIP-0091 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
       - beneficiary: "USDT0-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # USDT0 CIP-0090 # escrow party_id added to the GhostSV-validator-1
