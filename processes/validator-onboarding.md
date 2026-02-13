@@ -1,16 +1,23 @@
-
-
 # Canton Network Validator Onboarding Guide
 
 *Note: If you are only interested in setting up a validator node, you can set up a node on DevNet for practice, then jump to MainNet. If you’d like to build, test, or deploy an app, we recommend that you run a node on DevNet, TestNet, and MainNet.*
 
 *Note: DevNet is accessible to any validator whose public IP has been approved and allowlisted, TestNet requires an invitation via an SV sponsor, MainNet requires an invitation via an SV sponsor and a separate slot assigned to your node or provided by the sponsor SV.*
 
+## Optional: Use a Node-as-a-Service (NaaS) Provider
+
+If you prefer not to operate infrastructure yourself, you may choose to work with a **Node-as-a-Service (NaaS)** provider.
+
+A list of validator infrastructure providers that support the Canton Network is available here:
+
+https://canton.foundation/validators/
+
+These providers can manage deployment, operations, and maintenance of your validator node, and may also assist with onboarding and sponsorship coordination.
 
 **Docs:**
 
 - [DevNet](https://docs.dev.sync.global/)
--  [TestNet](https://docs.test.sync.global/)
+- [TestNet](https://docs.test.sync.global/)
 - [MainNet](https://docs.sync.global/)
 
 **We highly recommend you join slack through slack connect**
@@ -49,6 +56,17 @@ To join these lists,
 
 1. Create an account at groups.io
 2. Go to lists.sync.global and sign up
+
+## If You Do Not Have an SV Sponsor
+
+If you do not yet have a Super Validator (SV) sponsor, the **Canton Foundation can act as your default sponsor** for initial onboarding.
+
+You may submit your DevNet, TestNet, or MainNet public IP addresses directly to the Foundation for allowlisting using the form below:
+
+**Foundation IP Whitelisting Form**  
+https://forms.gle/cMU4nUEsz7sHVMmJ9
+
+The Foundation will coordinate the allowlisting request with the Super Validator network. Standard adoption timelines (2–7 days) still apply.
 
 ## 1. Whitelist your IP for DevNet
 
@@ -98,3 +116,5 @@ Follow steps detailed in the docs to spin up your node on MainNet. At this point
 ## 6. Request a Secret from your SV Sponsor
 
 Request an onboarding secret from your SV sponsor via Slack to your sponsoring SV for TestNet & MainNet. 
+
+
