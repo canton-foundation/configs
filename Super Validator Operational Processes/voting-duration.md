@@ -27,7 +27,9 @@ This is a draft process based on current working practices and prior meeting res
 
 #### 3. Special Cases
 
-- Proposals that are purely operational and already have SV rights owner approval still follow the same **5 business day** voting period before implementation.
+- Proposals that are purely operational and already have SV rights owner approval still follow the same **5 business day** voting period before implementation. If a Super Validator wants to use a different time period than the default, they should announce this to other Super Validators, and explain their reasoning. 
+
+The process for submitting and voting on proposals that are **Effective at Threshold** is outlined in a separate process document. 
 
 ### Notes
 
