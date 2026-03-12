@@ -25,7 +25,7 @@ jobs:
       contents: read
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0  # Default is 1. We set it as 0 to get access to the target branch
 
