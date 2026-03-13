@@ -2,7 +2,7 @@
 
 ### Purpose
 
-This process defines the required steps for Super Validator (SV) operators to create, announce, and manage on-chain vote proposals in alignment with governance requirements.
+This process defines the current consensus guidelines for Super Validator (SV) operators to create, announce, and manage on-chain vote proposals.
 
 ### Status
 
