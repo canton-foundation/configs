@@ -14,7 +14,7 @@ This is a draft process based on current practices and agreements recorded durin
 
 - Draft the vote proposal in accordance with applicable governance requirements (e.g., CIP or tokenomics processes).
 - Ensure the proposal includes:
-  - A **link** to the relevant **CIP vote announcement** or **tokenomics announcement**.
+  - A **link** to the relevant announcement in **[cip-announce](https://lists.sync.global/g/cip-announce/topics)**, **[tokenomics announcement](https://lists.sync.global/g/tokenomics-announce/topics)**, or **https://lists.sync.global/g/supervalidator-announce/topics**.
   - All necessary operational and technical details for SV review.
 
 #### 2. Initiate the On-Chain Vote
