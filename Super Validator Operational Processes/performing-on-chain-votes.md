@@ -6,7 +6,7 @@ This process defines the current consensus guidelines for Super Validator (SV) o
 
 ### Status
 
-This is a draft process based on current practices and agreements recorded during SV Operations meetings. 
+This is a draft process based on current practices and agreements recorded during weekly Super Validator Operations meetings. 
 
 ### Process
 
