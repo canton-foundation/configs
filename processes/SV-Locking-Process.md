@@ -23,7 +23,7 @@ Super Validators who choose to retain SV rewards weights as described in CIP--01
 ## Penalty Process
 
 #### Reducing an SV weight
-Any Super Validator that falls below the required Canton Coin locked amount for its current rewards tier will be immediately flagged for a reduction in its SV weight. On a daily basis, the Foundation will initiate an onchain vote proposal to reduce the weight of any Super Validator, and Super Validator operators will vote on that proposal with a threshold deadline of seven days, and proposal set at threshold. 
+Any Super Validator that falls below the required Canton Coin locked amount for its current rewards tier for fifty (50) minutes--approximately equivalent to one full minting round--will be immediately flagged for a reduction in its SV weight. On a daily basis, the Foundation will initiate an onchain vote proposal to reduce the weight of any such Super Validator, and Super Validator operators will vote on that proposal with a threshold deadline of seven days, with effectivity at threshold. 
 
 The vote proposal will state the date when the SV in question dropped below the required threshold, and this date will be used as the start of the 30 day time period during which the SV may restore that weight. This “start date” may be earlier than the same date that the weight reduction vote proposal was initiated. 
 
