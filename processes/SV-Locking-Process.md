@@ -102,7 +102,9 @@ Frequently Asked Questions
 2. **Are the tiers static percentages or do they require a separate minimum lock period?**
  - The tiers are based on maintaining the required percentage of aggregate lifetime earned rewards as actively locked at all times. There is no separate fixed lock term beyond the vesting based unlock model. Penalties will be applied if balances fall below threshold for fifty (50) minutes--approximately the length of one full minting round. 
 3. **How do unlock tranches work?**
- - When an SV moves a balance out of its locking structure into a disclosed unlocking structure, that amount begins vesting out at a rate of 1/365.25 per day. Unlocked balances do not contribute to the SV’s locked total, even when those unlocked balanced have not vested. 
+ - When an SV moves a balance out of its locking structure into a disclosed unlocking structure, that amount begins vesting out at a rate of 1/365.25 per day. Super Validators may move or liquidate the vested Canton Coin balance in a given unlocking wallet. 
+ 
+ Unlocked balances do not contribute to the SV’s locked total, even when those unlocked balanced have not vested. 
 4. **Can an SV update its disclosed PartyIds during Phase 1?**
  - Yes. SVs should notify the Foundation promptly whenever they add, remove, or migrate locking or unlocking PartyIds.
 5. **Can locked balances be held with a custodian?**
