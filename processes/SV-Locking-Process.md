@@ -11,7 +11,7 @@ This document provides guidelines for implementing CIP-0105 during the “Transi
 #### Key Points : 
 
 1. Each Super Validator will report to the Foundation the PartyID for each of the wallets it plans to use for locking its SV rewards in compliance with this CIP. These PartyIDs must not commingle funds with other holders.
-2. Each Super Validator must also report to the Foundation the partyID for any wallet used to manage the unlocking process when it unlocks previously locked balances. 
+2. Each Super Validator must also report to the Foundation the partyID for any wallet used to manage the unlocking process any time it plans to unlock previously locked balances. 
 3. The Foundation will provide the PartyIDs for these wallets to public dashboard providers, and will rely on public dashboard calculations to apply any penalties and to enforce unlock vesting rates.
 4. The Foundation will initiate a vote to reduce minting weight for any Super Validator that falls below one of the defined thresholds. 
 
