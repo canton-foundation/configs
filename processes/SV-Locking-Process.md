@@ -40,7 +40,7 @@ If the Super Validator does not meet their locking threshold by the end of the 3
 
 #### Super Validator Escrow
 
-Super Validators that are earning rewards in escrow via SV reward coupons must maintain above threshold for their actually earned rewards in order to qualify for their overall SV weight. 
+Super Validators that are earning rewards in escrow via SV reward coupons must maintain a locked balance **above the threshold for their actually earned rewards** in order to qualify for their overall SV weight. 
 
 SVs that fall below a threshold on their actually earned rewards will have their total weight reduced across all milestones. 
 
