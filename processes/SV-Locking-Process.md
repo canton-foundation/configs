@@ -47,7 +47,7 @@ If a Super Validator falls below a threshold and receives a lower weight as a re
 
 #### Live Metrics
 
-Publicly available dashboard, or dashboards, will report the following details:
+Publicly available dashboards relied on by the Foundation must report at least following details:
 1. Total SV rewards earned up to the end of the issuance (minting) phase of the most recently closed round
 2. Current "locked" amount across all reported locking wallets controlled by that Super Validator
 
