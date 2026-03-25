@@ -36,7 +36,7 @@ To restore their weight, the Super Validator must meet the required balance thre
 
 To move out of a penalty state and return to a higher tier, Super Validators must notify the Foundation that they have met the required threshold, using the email sv@canton.foundation, before then end of the 30th day as described above. Foundation staff will validate this using public dashboards. 
 
-If the Super Validator does not meet their locking threshold by the end of the 30th day, the Foundation will initiate a vote proposal with a threshold deadline on the 37th day (independent of weekends and holidays), with effectivity at threshold. 
+If the Super Validator does not meet their locking threshold by the end of the 30th day, and that Super Validator's weight has been reduced to zero (0), the Foundation will initiate a vote proposal to **offboard that Super Validator from the Global Synchronizer,** with a threshold deadline on the 37th day (independent of weekends and holidays), with effectivity at threshold. 
 
 #### Super Validator Escrow
 
