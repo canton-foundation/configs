@@ -92,7 +92,7 @@ Can we keep locked coins at a custodian?
  - Yes, any wallets used for locked coins need to be disclosed and can be in a custodian. 
 
 What are the general timelines for locking?
-- Manual process will start 2026-04-01 The automated process will kick off 3 to 6 months later. If SVs act in good faith, presenting their understanding of how to manage  movements among accounts and adhering to their own processes, there will be time for SVs to come to a common understanding. 
+- Manual process will start on or after 2026-04-01, with the final activation date to be announced by the Foundation after consultation with the Super Validators.  The automated process will kick off 3 to 6 months later. 
 
 
 
