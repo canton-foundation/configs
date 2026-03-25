@@ -108,7 +108,7 @@ Frequently Asked Questions
 4. **Can an SV update its disclosed PartyIds during Phase 1?**
  - Yes. SVs should notify the Foundation promptly whenever they add, remove, or migrate locking or unlocking PartyIds.
 5. **Can locked balances be held with a custodian?**
- - Yes. Locked balances may be held in self custody, at an institutional custodian, or through a qualified third party custody provider.
+ - Yes. Locked balances may be held in self custody, at an institutional custodian, or another custodial service, provided those balances are held in dedicated wallets that contain only funds controlled by the Super Validator. 
 6. **Can the locking requirement be met across multiple PartyIds?**
  - Yes. Compliance is calculated on an aggregate basis across all disclosed locking PartyIds attributable to that SV.
 7. **Can locked balances be transferred among registered PartyIds?**
