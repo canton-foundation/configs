@@ -30,7 +30,9 @@ The vote proposal will state the date when the SV in question dropped below the 
 #### Restoring an SV Weight
 Super Validators may return to a prior discount tier by increasing their locked balance to the current required threshold for the given tier. SVs whose balance has fallen below the threshold required for a given tier must restore the required balance within 30 days, or that higher tier will become permanently unavailable to them. 
 
-To restore their weight, the Super Validator must meet the required balance threshold in reported locking wallets by the end of the **30th day after the date**–indicated in the vote record onchain–when the SV fell below the required threshold, counting dates as ending 7 pm US Pacific Time. For example, if the SV falls below threshold on May 2nd, the end of the first day will be 7 pm US Pacific Time on May 3rd, and the end of the 30th day will be 7 pm US Pacific Time on **June 1st**. 
+To restore their weight, the Super Validator must meet the required balance threshold in reported locking wallets by the end of the **30th day after the date**–indicated in the vote record onchain–when the SV fell below the required threshold, counting dates as ending 7 pm US Pacific Time. 
+
+**For example**, if the SV falls below threshold on May 2nd, the end of the first day will be 7 pm US Pacific Time on May 3rd, and the end of the 30th day will be 7 pm US Pacific Time on **June 1st**. 
 
 If they wish to avoid permanent removal of their SV weight, Super Validators must notify the Foundation that they have met the required threshold, using the email sv@canton.foundation, before then end of the 30th day as described above. Foundation staff will validate this using public dashboards. 
 
