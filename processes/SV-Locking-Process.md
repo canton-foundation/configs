@@ -6,7 +6,7 @@
 
 Given its approval date on March 2,  the SV locking process defined in the CIP will begin on or soon after April 1st, 2026, with the final date to be determined by the Super Validators and announced by the Foundation. Adoption will be contingent on at least one public dashboard (described below) going live. 
 
-This document outlines an implementation of CIP-0105 during the “Transitional Enforcement” period. We expect this period to last for several months. 
+This document provides guidelines for implementing CIP-0105 during the “Transitional Enforcement” period. We expect this period to last for several months. 
 
 #### Key Points : 
 
