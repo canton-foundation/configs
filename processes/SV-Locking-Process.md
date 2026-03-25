@@ -67,7 +67,7 @@ Publicly available dashboards relied on by the Foundation must report at least f
 5. Current SV reward tier and weight
 6. Implied New Tier and SV weight based on locked amount (calculated by round) in case of any changes
    - (a) New implied SV weight, if any
-   - (b)Days since the SV’s implied weight changed (days since the SV’s locked balance went below its current threshold, or returned above its prior threshold ). 
+   - (b) Days since the SV’s implied weight changed (days since the SV’s locked balance went below its current threshold, or returned above its prior threshold ). 
 Status of (and link to) active onchain proposal (if any) to change this SV's weight. 
 Unlocked amount by tranche
 Currently vested unlocked balance by tranche
