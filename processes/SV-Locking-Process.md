@@ -34,7 +34,7 @@ To restore their weight, the Super Validator must meet the required balance thre
 
 **For example**, if the SV falls below threshold on May 2nd, the end of the first day will be 7 pm US Pacific Time on May 3rd, and the end of the 30th day will be 7 pm US Pacific Time on **June 1st**. 
 
-If they wish to avoid permanent removal of their SV weight, Super Validators must notify the Foundation that they have met the required threshold, using the email sv@canton.foundation, before then end of the 30th day as described above. Foundation staff will validate this using public dashboards. 
+To move out of a penalty state and return to a higher tier, Super Validators must notify the Foundation that they have met the required threshold, using the email sv@canton.foundation, before then end of the 30th day as described above. Foundation staff will validate this using public dashboards. 
 
 If the Super Validator does not meet their locking threshold by the end of the 30th day, the Foundation will initiate a vote proposal with a threshold deadline on the 37th day (independent of weekends and holidays), with effectivity at threshold. 
 
