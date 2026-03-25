@@ -79,7 +79,7 @@ SVs are strongly encouraged to:
  - maintain a compliance buffer above the minimum threshold
 - pre-fund expected future locking needs on a weekly basis where practical
 - review dashboard data regularly
-- avoid initiating unlocks without modeling tier impact first
+- model the tier impact of an unlock before moving Canton Coin to an unlocking wallet PartyID
 - ensure custodians understand the distinction between locked and unlocking balances
 - document internal treasury workflows that affect locking balances
 - notify the Foundation before major wallet or custodian migrations where possible
