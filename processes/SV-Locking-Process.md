@@ -28,7 +28,7 @@ Any Super Validator that falls below the required Canton Coin locked amount for 
 The vote proposal will state the date when the SV in question dropped below the required threshold, and this date will be used as the start of the 30 day time period during which the SV may restore that weight. This “start date” may be earlier than the date when the weight reduction vote proposal was initiated. 
 
 #### Restoring an SV Weight
-Super Validators may increase their weight if they increase their locked balance to the current required threshold for the given weight. SVs that have fallen below a given threshold must restore that weight within 30 days, or that higher threshold will become permanently unavailable to them, and they will not be able to restore to the related SV weight. 
+Super Validators may return to a prior discount tier by increasing their locked balance to the current required threshold for the given tier. SVs whose balance has fallen below the threshold required for a given tier must restore the required balance within 30 days, or that higher tier will become permanently unavailable to them. 
 
 To restore their weight, the Super Validator must meet the required balance threshold in reported locking wallets by the end of the **30th day after the date**–indicated in the vote record onchain–when the SV fell below the required threshold, counting dates as ending 7 pm US Pacific Time. For example, if the SV falls below threshold on May 2nd, the end of the first day will be 7 pm US Pacific Time on May 3rd, and the end of the 30th day will be 7 pm US Pacific Time on **June 1st**. 
 
