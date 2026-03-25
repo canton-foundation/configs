@@ -88,34 +88,54 @@ SVs are strongly encouraged to:
 
 Questions, updated PartyId disclosures, and operational notices relating to this policy should be submitted to the Foundation through sv@canton.foundation
 
-Can we keep locked coins at a custodian?
- - Yes, any wallets used for locked coins need to be disclosed and can be in a custodian. 
+## Frequently Asked Questions
 
-What are the general timelines for locking?
-- Manual process will start on or after 2026-04-01, with the final activation date to be announced by the Foundation after consultation with the Super Validators.  The automated process will kick off 3 to 6 months later. 
+1. **Can we keep locked coins at a custodian?**
+   
+   Yes, any wallets used for locked coins need to be disclosed and can be in a custodian. 
 
+2. **What are the general timelines for locking?**
 
+   Manual process will start on or after 2026-04-01, with the final activation date to be announced by the Foundation after consultation with the Super Validators.  The automated process will kick off 3 to 6 months later.
+   
+3. **Is the lock on-chain during Phase 1?**
+   
+   No. During Phase 1, locking is represented by balances held in disclosed wallets or custodial accounts. On-chain automation is expected in Phase 2.
+   
+4. **Are the tiers static percentages or do they require a separate minimum lock period?**
+   
+   The tiers are based on maintaining the required percentage of aggregate lifetime earned rewards as actively locked at all times. There is no separate fixed lock term beyond the vesting based unlock model. Penalties will be applied if balances fall below threshold for fifty (50) minutes--approximately the length of one full minting round.
+   
+5. **How do unlock tranches work?**
+   
+   When an SV moves a balance out of its locking structure into a disclosed unlocking structure, that amount begins vesting out at a rate of 1/365.25 per day. Super Validators may move or liquidate the vested Canton Coin balance in a given unlocking wallet. Unlocked balances do not contribute to the SV’s locked total, even when those unlocked balanced have not vested.
+   
+6. **Can an SV update its disclosed PartyIds during Phase 1?**
+   
+   Yes. SVs should notify the Foundation promptly whenever they add, remove, or migrate locking or unlocking PartyIds.
+   
+7. **Can locked balances be held with a custodian?**
+   
+   Yes. Locked balances may be held in self custody, at an institutional custodian, or another custodial service, provided those balances are held in dedicated wallets that     contain only funds controlled by the Super Validator.
+   
+8. **Can the locking requirement be met across multiple PartyIds?**
+   
+   Yes. Compliance is calculated on an aggregate basis across all disclosed locking PartyIds attributable to that SV.
+   
+9. **Can locked balances be transferred among registered PartyIds?**
+    
+   Yes, provided the balances remain within the disclosed locking structure and are not being unlocked outside the vesting rules.
+   
+10. **Who provides the cumulative rewards figure?**
 
-Frequently Asked Questions
-1. **Is the lock on-chain during Phase 1?**
- - No. During Phase 1, locking is represented by balances held in disclosed wallets or custodial accounts. On-chain automation is expected in Phase 2.
-2. **Are the tiers static percentages or do they require a separate minimum lock period?**
- - The tiers are based on maintaining the required percentage of aggregate lifetime earned rewards as actively locked at all times. There is no separate fixed lock term beyond the vesting based unlock model. Penalties will be applied if balances fall below threshold for fifty (50) minutes--approximately the length of one full minting round. 
-3. **How do unlock tranches work?**
- - When an SV moves a balance out of its locking structure into a disclosed unlocking structure, that amount begins vesting out at a rate of 1/365.25 per day. Super Validators may move or liquidate the vested Canton Coin balance in a given unlocking wallet. 
- 
- Unlocked balances do not contribute to the SV’s locked total, even when those unlocked balanced have not vested. 
-4. **Can an SV update its disclosed PartyIds during Phase 1?**
- - Yes. SVs should notify the Foundation promptly whenever they add, remove, or migrate locking or unlocking PartyIds.
-5. **Can locked balances be held with a custodian?**
- - Yes. Locked balances may be held in self custody, at an institutional custodian, or another custodial service, provided those balances are held in dedicated wallets that contain only funds controlled by the Super Validator. 
-6. **Can the locking requirement be met across multiple PartyIds?**
- - Yes. Compliance is calculated on an aggregate basis across all disclosed locking PartyIds attributable to that SV.
-7. **Can locked balances be transferred among registered PartyIds?**
- - Yes, provided the balances remain within the disclosed locking structure and are not being unlocked outside the vesting rules.
-8. **Who provides the cumulative rewards figure?**
- - During Phase 1, the Foundation expects public dashboards to provide the primary calculation basis, subject to public auditability and operational review.
-9. **How should newly earned rewards be handled?**
- - Because future rewards increase the denominator for compliance, SVs should plan to maintain their target percentage on a round-by-round rolling basis. In practice, many SVs may choose to hold a buffer above the threshold.
-10. **What are the expected timelines?**
- - Phase 1 Transitional Enforcement begins on or after **April 1, 2026**. Final date will be announced by the Foundation after confirmation by the Super Validators. Phase 2 automation will be scheduled after the necessary automated locking tools are available.
+      During Phase 1, the Foundation expects public dashboards to provide the primary calculation basis, subject to public auditability and operational review.
+
+11. **How should newly earned rewards be handled?**
+
+      Because future rewards increase the denominator for compliance, SVs should plan to maintain their target percentage on a round-by-round rolling basis. In practice, many SVs may choose to hold a buffer above the threshold.
+
+12. **What are the expected timelines?**
+
+      Phase 1 Transitional Enforcement begins on or after **April 1, 2026**. Final date will be announced by the Foundation after confirmation by the Super Validators.
+
+      Phase 2 automation will be scheduled after the necessary automated locking tools are available.
