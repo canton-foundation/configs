@@ -17,8 +17,8 @@ This document provides guidelines for implementing CIP-0105 during the “Transi
 
 #### How to report your PartyIDs to the Foundation:
 Super Validators who choose to retain SV rewards weights as described in CIP--0105 will need to send the following information to sv@canton.foundation 
- - All PartyIds used for locked balances
- - Any PartyIds used for unlocking balances
+ - All PartyIds controlling locked balances
+ - Any PartyIds controlling unlocked balances
 
 ## Penalty Process
 
