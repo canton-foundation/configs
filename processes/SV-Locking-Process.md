@@ -100,7 +100,7 @@ Frequently Asked Questions
 1. **Is the lock on-chain during Phase 1?**
  - No. During Phase 1, locking is represented by balances held in disclosed wallets or custodial accounts. On-chain automation is expected in Phase 2.
 2. **Are the tiers static percentages or do they require a separate minimum lock period?**
- - The tiers are based on maintaining the required percentage of aggregate lifetime earned rewards as actively locked at all times. There is no separate fixed lock term beyond the vesting based unlock model.
+ - The tiers are based on maintaining the required percentage of aggregate lifetime earned rewards as actively locked at all times. There is no separate fixed lock term beyond the vesting based unlock model. Penalties will be applied if balances fall below threshold for fifty (50) minutes--approximately the length of one full minting round. 
 3. **How do unlock tranches work?**
  - When an SV moves a balance out of its locking structure into a disclosed unlocking structure, that amount begins vesting out at a rate of 1/365.25 per day. Unlocked balances do not contribute to the SV’s locked total, even when those unlocked balanced have not vested. 
 4. **Can an SV update its disclosed PartyIds during Phase 1?**
