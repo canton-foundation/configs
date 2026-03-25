@@ -118,4 +118,4 @@ Frequently Asked Questions
 9. **How should newly earned rewards be handled?**
  - Because future rewards increase the denominator for compliance, SVs should plan to maintain their target percentage on a round-by-round rolling basis. In practice, many SVs may choose to hold a buffer above the threshold.
 10. **What are the expected timelines?**
- - Phase 1 Transitional Enforcement begins **April 1, 2026**. Phase 2 automation is still TBD.
+ - Phase 1 Transitional Enforcement begins on or after **April 1, 2026**. Final date will be announced by the Foundation after confirmation by the Super Validators. Phase 2 automation will be scheduled after the necessary automated locking tools are available.
