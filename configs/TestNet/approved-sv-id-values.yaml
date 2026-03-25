@@ -45,13 +45,13 @@ approvedSvIdentities:
       - beneficiary: "WoodsideAI-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Woodside AI CIP-0059 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
       - beneficiary: "zerohash-validator-1::122064a0116d4d355319a5d006edcd50f1ec309167a0b22b2873dd94f231621dd476" # Zero Hash CIP-0060 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 3_0000
+        weight: 3_5000
       - beneficiary: "ZeroHash-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
-        weight: 4_5000
+        weight: 4_0000
       - beneficiary: "Ubyx-validator-1::1220b0760a1c85476891236f48fd5d312258d8880a47146793c460c6469cd4e3953c" # Ubyx CIP-0071 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 2_9500
+        weight: 3_4500
       - beneficiary: "Ubyx-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_0000
+        weight: 1_5000
       - beneficiary: "Hypernative-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Hypernative CIP-0076 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
       - beneficiary: "Chainlink-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
