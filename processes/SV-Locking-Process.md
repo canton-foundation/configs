@@ -1,4 +1,4 @@
-## SV Locking Operational Process
+## SV Locking Operational Guidelines
 
 [CIP-0105](https://github.com/canton-foundation/cips/blob/main/cip-0105/cip-0105.md) **Transitional Enforcement**
 
