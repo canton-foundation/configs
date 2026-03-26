@@ -23,7 +23,7 @@ Super Validators who choose to retain SV rewards weights as described in CIP--01
 ## Penalty Process
 
 #### Reducing an SV weight
-Any Super Validator that falls below the required Canton Coin locked amount for its current rewards tier for fifty (50) minutes--approximately equivalent to one full minting round--will be immediately flagged for a reduction in its SV weight. On a daily basis, the Foundation will initiate an onchain vote proposal to reduce the weight of any such Super Validator, and Super Validator operators will vote on that proposal with a threshold deadline of seven days, with effectivity at threshold. 
+Any Super Validator that falls below the required Canton Coin locked amount for its current rewards tier for fifty (50) minutes--approximately equivalent to one full minting round--will be immediately flagged for a reduction in its SV weight. On a daily basis, Foundation operational staff will initiate an onchain vote proposal to reduce the weight of any such Super Validator, and Super Validator operators will vote on that proposal with a threshold deadline of seven days, with effectivity at threshold. 
 
 The vote proposal will state the date when the SV in question dropped below the required threshold, and this date will be used as the start of the 30 day time period during which the SV may restore that weight. This “start date” may be earlier than the date when the weight reduction vote proposal was initiated. 
 
@@ -36,7 +36,7 @@ To restore their weight, the Super Validator must meet the required balance thre
 
 To move out of a penalty state and return to a higher tier, Super Validators must notify the Foundation that they have met the required threshold, using the email sv@canton.foundation, before then end of the 30th day as described above. Foundation staff will validate this using public dashboards. 
 
-If the Super Validator does not meet their locking threshold by the end of the 30th day, and that Super Validator's weight has been reduced to zero (0), the Foundation will initiate a vote proposal to **offboard that Super Validator from the Global Synchronizer,** with a threshold deadline on the 37th day (independent of weekends and holidays), with effectivity at threshold. 
+If the Super Validator does not meet their locking threshold by the end of the 30th day, and that Super Validator's weight has been reduced to zero (0), Foundation operational staff will initiate a vote proposal to **offboard that Super Validator from the Global Synchronizer,** with a threshold deadline on the 37th day (inclusive of weekends and holidays), with effectivity at threshold. 
 
 #### Super Validator Escrow
 
