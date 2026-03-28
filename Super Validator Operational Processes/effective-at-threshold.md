@@ -11,9 +11,9 @@
 - An emergency is defined as:  
   - **The proposing Super Validator has evidence that waiting for the normal expiration window would create or worsen instability in the network.** 
   
-  -**The proposing Super Validator has evidence that waiting will have a negative economic impact on the network, including distortions in Featured Application rewards, an incorrect mint amount, or an incorrect Super Validator weight.**
+  - **The proposing Super Validator has evidence that waiting will have a negative economic impact on the network, including distortions in Featured Application rewards, an incorrect mint amount, or an incorrect Super Validator weight.**
   
-  -**The proposal is implementing a correction to an existing vote proposal that has already reached a threshold of votes.**
+  - **The proposal is implementing a correction to an existing vote proposal that has already reached a threshold of votes.**
 - Appropriate scenarios include:  
   - Critical bug fix requiring immediate Daml model adoption or protocol upgrade.  
   - Evidence that a node is actively causing network instability and ⅔ SVs agree immediate offboarding is required.  
