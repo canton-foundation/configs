@@ -48,7 +48,7 @@ If a Super Validator falls below a threshold and receives a lower weight as a re
 #### Live Metrics
 
 Publicly available dashboards relied on by the Foundation must report at least following details:
-1. Total SV rewards earned up to the end of the issuance (minting) phase of the most recently closed round
+1. Total SV rewards earned up to the end of the issuance (minting) phase of the most recently closed round, where "closed" in this context means "the issuance phase of the round has ended", that is, the round is entirely complete. 
 2. Current "locked" amount across all reported locking wallets controlled by that Super Validator
 
     - (a) List partyID and locked amounts of all locking wallets  
