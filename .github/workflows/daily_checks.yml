@@ -2,6 +2,11 @@ name: Daily Checks
 
 on:
   workflow_dispatch:
+    inputs:
+      notify_slack:
+        description: 'Notify failures to Slack'
+        type: boolean
+        default: false
   schedule:
     - cron: "0 0 * * *"  # Every day at midnight UTC
 
@@ -41,7 +46,7 @@ jobs:
           exit "$exit_code"
 
       - name: Post reward weights check results to a Slack channel
-        if: failure() && steps.diff-reward-weights.outcome == 'failure'
+        if: failure() && inputs.notify_slack != false && steps.diff-reward-weights.outcome == 'failure'
         uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d  # v2.0.0
         with:
           method: chat.postMessage
@@ -72,7 +77,7 @@ jobs:
           exit "$exit_code"
 
       - name: Post missing voters check results to a Slack channel
-        if: failure() && steps.get-missing-voters.outcome == 'failure'
+        if: failure() && inputs.notify_slack != false && steps.get-missing-voters.outcome == 'failure'
         uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d  # v2.0.0
         with:
           method: chat.postMessage
