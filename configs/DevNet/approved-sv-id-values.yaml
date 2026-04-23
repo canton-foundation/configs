@@ -134,7 +134,7 @@ approvedSvIdentities:
     rewardWeightBps: 10_5750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVSqn1J3YWij1KBWVNKKOQ8aEPeUc9SFe418mneRdV/PJOX4awAePDrG7A09SYkqP8dyg8ESMw5ltV0dJt5eqlQ==
-    rewardWeightBps: 24_0500
+    rewardWeightBps: 26_0000
     extraBeneficiaries:
       - beneficiary: "bsv-ghost-1::122021b2533a670a0eefc3a68e998ef77f56c0b2dc1ef2f40a8f829122079847931b" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-devnet-2
         weight: 6_0000
@@ -144,6 +144,8 @@ approvedSvIdentities:
         weight: 2_0000
       - beneficiary: "further-ghost-1::122021b2533a670a0eefc3a68e998ef77f56c0b2dc1ef2f40a8f829122079847931b" # Further Asset Management (Further)  CIP-0113 # escrow party_id hosted on 5nghost-devnet-2
         weight: 8_0000
+      - beneficiary: "chainsafe-dev-sv-0::1220096316d4ea75c021d89123cfd2792cfeac80dfbf90bfbca21bcd8bf1bb40d84c" # ChainSafe  CIP-0086 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 1_9500
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeSP06KmTXsRJ65JGYwtzKRX9gosW+Gf4IwIquPGT8+XM1ey9La4wdZ+eELNZMPGacQ9fDe2JPFuRJE+fdVsfOQ==
     rewardWeightBps: 1_2500
