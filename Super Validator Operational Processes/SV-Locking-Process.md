@@ -42,7 +42,7 @@ If the Super Validator does not meet their locking threshold by the end of the 3
 
 Super Validators that are earning rewards in escrow via SV reward coupons must maintain a locked balance **above the threshold for their actually minted rewards** in order to qualify for their overall SV weight. 
 
-If a Super Validator falls below a threshold and receives a lower weight as a result, that lower weight will apply to any mints from escrow performed while that SV has the lower weight. SVs will not mint from escrow at a higher (or lower) weight that may have been active when a given escrow coupon was generated. 
+If a Super Validator falls below a threshold and receives a lower weight as a result, that lower weight will not apply to any mints from escrow performed while that SV has the lower weight. SVs will mint from escrow at the weight assigned to the milestone associated with the escrow-related activity. 
 
 #### Lock Substitution
 
