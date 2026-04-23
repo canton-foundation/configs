@@ -124,12 +124,18 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
     rewardWeightBps: 14_0000
     extraBeneficiaries:
-      - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH
-        weight: 1_0000
-      - beneficiary: "auth0_007c684c0bbea5e9c9e5a9ad16f6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH
-        weight: 2500
-      - beneficiary: "auth0_007c6882116872613fe1d8b0aeb6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka (MPCH hosted wallet)
-        weight: 7500
+      - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH - wallet
+        weight: 5500
+      - beneficiary: "auth0_007c69dcad2a0dc0711745bca087::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # MPCH - locking wallet
+        weight: 4500
+      - beneficiary: "auth0_007c684c0bbea5e9c9e5a9ad16f6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - wallet
+        weight: 1375
+      - beneficiary: "auth0_007c69cce717dfb1e57de678b9dc::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - locking wallet
+        weight: 1125
+      - beneficiary: "auth0_007c6882116872613fe1d8b0aeb6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - wallet
+        weight: 4125
+      - beneficiary: "12204::1220416f32818f52ab34cd7cec71a456082510345ad63bd3fc15b6fa9bb95342ca9d" # Lukka CIP-0032 - locking wallet
+        weight: 3375
       - beneficiary: "HexTrust-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 3_0000
       - beneficiary: "Blockdaemon-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
