@@ -14,12 +14,12 @@ This is a draft process based on current working practices and prior meeting res
 #### 1. Voting Duration
 
 - **MainNet**:  
-  - Standard proposal expiration is **1 week (5 business days)**.  
+  - Standard proposal expiration is **1 week (7 calendar days)**.  
   - Applies to all proposals, including CIPs already approved by SV rights owners (e.g., CIP-0044, CIP-0039, CIP-0035).  
   - No additional SV rights owner approval is required prior to operator voting.
 
 - **DevNet and TestNet**:  
-  - Standard proposal expiration is also **1 week (5 business days)** unless explicitly agreed otherwise for specific operational needs.
+  - Standard proposal expiration is also **1 week (7 calendar days)** unless explicitly agreed otherwise for specific operational needs.
 
 #### 2. Effectivity
 
@@ -27,7 +27,7 @@ This is a draft process based on current working practices and prior meeting res
 
 #### 3. Special Cases
 
-- Proposals that are purely operational and already have SV rights owner approval still follow the same **5 business day** voting period before implementation. If a Super Validator wants to use a different time period than the default, they should announce this to other Super Validators, and explain their reasoning. 
+- Proposals that are purely operational and already have SV rights owner approval still follow the same **7 calendar day** voting period before implementation. If a Super Validator wants to use a different time period than the default, they should announce this to other Super Validators, and explain their reasoning. 
 
 The process for submitting and voting on proposals that are **Effective at Threshold** is outlined in a separate process document. 
 

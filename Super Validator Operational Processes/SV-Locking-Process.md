@@ -23,9 +23,9 @@ Super Validators who choose to retain SV rewards weights as described in CIP--01
 ## Penalty Process
 
 #### Reducing an SV weight
-Any Super Validator that falls below the required Canton Coin locked amount for its current rewards tier for fifty (50) minutes--approximately equivalent to one full minting round--will be immediately flagged for a reduction in its SV weight. On a daily basis, Foundation operational staff will initiate an onchain vote proposal to reduce the weight of any such Super Validator, and Super Validator operators will vote on that proposal with a threshold deadline of seven days, with effectivity at threshold. 
+Any Super Validator that falls below the required Canton Coin locked amount for its current rewards tier for fifty (50) minutes--approximately equivalent to one full minting round--will be immediately flagged for a reduction in its SV weight. On a daily basis, Foundation operational staff will initiate an onchain vote proposal to reduce the weight of any such Super Validator, and Super Validator operators will vote on that proposal with a threshold deadline of seven days, and effectivity at eight days. 
 
-The vote proposal will state the date when the SV in question dropped below the required threshold, and this date will be used as the start of the 30 day time period during which the SV may restore that weight. This “start date” may be earlier than the date when the weight reduction vote proposal was initiated. 
+The vote proposal will state the date when the SV in question dropped below the required threshold, and the date when they fell below threshold will be used as the start of the 30 day time period during which the SV may restore that weight. This “start date” may be earlier than the date when the weight reduction vote proposal was initiated. 
 
 #### Restoring an SV Weight
 Super Validators may return to a prior discount tier by increasing their locked balance to the current required threshold for the given tier. SVs whose balance has fallen below the threshold required for a given tier must restore the required balance within 30 days, or that higher tier will become permanently unavailable to them. 
@@ -36,7 +36,7 @@ To restore their weight, the Super Validator must meet the required balance thre
 
 To move out of a penalty state and return to a higher tier, Super Validators must notify the Foundation that they have met the required threshold, using the email sv@canton.foundation, before then end of the 30th day as described above. Foundation staff will validate this using public dashboards. 
 
-If the Super Validator does not meet their locking threshold by the end of the 30th day, and that Super Validator's weight has been reduced to zero (0), Foundation operational staff will initiate a vote proposal to **offboard that Super Validator from the Global Synchronizer,** with a threshold deadline on the 37th day (inclusive of weekends and holidays), with effectivity at threshold. 
+If the Super Validator does not meet their locking threshold by the end of the 30th day, and that Super Validator's weight has been reduced to zero (0), Foundation operational staff will initiate a vote proposal to **offboard that Super Validator from the Global Synchronizer,** with a threshold deadline on the 37th day (inclusive of weekends and holidays), with effectivity on the 38th day. 
 
 #### Super Validator Escrow
 
@@ -44,6 +44,11 @@ Super Validators that are earning rewards in escrow via SV reward coupons must m
 
 If a Super Validator falls below a threshold and receives a lower weight as a result, that lower weight will apply to any mints from escrow performed while that SV has the lower weight. SVs will not mint from escrow at a higher (or lower) weight that may have been active when a given escrow coupon was generated. 
 
+#### Lock Substitution
+
+Super Validators may borrow Canton Coin in order to meet their locking threshold. In these cases, it may be necessary for the Super Valdiator to switch from one loan provider to another. When switching from one loan provider to another the Super Validator has a 24-hour period during which they may raise their balance above threshold by adding a locking wallet containing a balance from a new loan provider, and then remove Canton Coin from an existing locking wallets to repay an existing loan provider.
+
+In more detail: Super Validators are allowed a 24-hour period when they may add Canton Coin above their required threshold--in a separate wallet--then swap out the above-threshold amount from a different wallet. If the Super Validator completes this process in less than 24 hours, the transfer-out for the over-staked (above threshold) amount would be allowed without going through an unlocking wallet or vesting schedule. The balance **must** first go above threshold for this workflow to be allowed. Dropping below threshold will result in a penalty. The goal of this workflow is to allow SVs to meet their threshold requirements while changing change loan providers. 
 
 #### Live Metrics
 
