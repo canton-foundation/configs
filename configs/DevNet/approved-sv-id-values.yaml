@@ -19,17 +19,15 @@ approvedSvIdentities:
     rewardWeightBps: 15_9250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 195_5000
+    rewardWeightBps: 200_6000
     extraBeneficiaries:
-      - beneficiary: "GhostSV-validator-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # All weight not assigned to any particular SV is added to the GhostSV-validator-1
+      - beneficiary: "GhostSV-validator-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 0.92 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
         weight: 1_1950
       - beneficiary: "GSF-validator-1::12203b389175d5d9a67a443078b3867fb179fc730d5dfb6aca3c509c37e926a6e24b" # GSF-1
         weight: 10_0000
       - beneficiary: "TheTie-validator-1::1220944b4dab3e3436c9ca6c331b6c9b11d908d71db471e44bc5d0bce6b5e81a796e" # The-Tie
         weight: 1_0000
       - beneficiary: "copper-devnetValidator-recoveredex::12209da7ed8b1556a7b2cc0ebfd9ea0086ff47a7898f8ec3149bcbc8582fa5055c49" # Copper
-        weight: 1_0000
-      - beneficiary: "DFNS-validator-1::1220b4a27fccdd8744ca317c428dc3005eb65c2f995e18dc271ebb00517419125952" # Dfns
         weight: 1_0000
       - beneficiary: "copper-devnetValidator-recoveredex::12209da7ed8b1556a7b2cc0ebfd9ea0086ff47a7898f8ec3149bcbc8582fa5055c49" # Copper Clearloop CIP-0039
         weight: 1_0000
@@ -38,8 +36,6 @@ approvedSvIdentities:
       - beneficiary: "circle-validator-1::12204f2fcd4f0b71ac10dc62a2fe2b57c7e8160008637d051d4bfff3f5236ae515fb" # Circle CIP-0041
         weight: 10_0000
       - beneficiary: "bitwave-devnet-2::1220eecc99dfcc432bbfb358380472523f2189c014f7c632dd60c5430581eda25bc3" # Bitwave CIP-0055
-        weight: 1_0000
-      - beneficiary: "IntellectEU-SVRewards-1::122014779cb706f3b95888bb55d10c416b529ffc55f89b06711ea9346c846b494a96" # IntellectEU CIP-0058
         weight: 1_0000
       - beneficiary: "angelhack_devnet::12202884e80e7097caf94523e9e5533576ec2b5b016377bbd39f28b376f984a8a93d" # AngelHack CIP-0053
         weight: 2_5000
@@ -63,7 +59,7 @@ approvedSvIdentities:
         weight: 1_5000
       - beneficiary: "Hypernative-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Hypernative CIP-0076 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
-      - beneficiary: "Chainlink-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "Chainlink-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Chainlink CIP-0061
         weight: 7_5000
       - beneficiary: "Chainlink-ghost-2::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
@@ -71,8 +67,8 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Wormhole-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
-      - beneficiary: "ledger-ledgeropsdevnet-0::12208f74f551f8c28b68414fc3bb4b8466178055845485878a1af8ac1fe96f88fad2" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 2_0000
+      # - beneficiary: "ledger-ledgeropsdevnet-0::12208f74f551f8c28b68414fc3bb4b8466178055845485878a1af8ac1fe96f88fad2" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
+      #   weight: 2_0000 # CIP0105, Under-Locked SV Weight Enforcement
       - beneficiary: "Ledger-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
       - beneficiary: "Taurus-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
@@ -90,9 +86,9 @@ approvedSvIdentities:
       - beneficiary: "Zodia-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
       - beneficiary: "Republic-Devel-1::122030b358dec6e1af7d6d9b2ec87a633eed9afd683be768ea0becc964274c4bb8da" # Republic CIP-0080 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 3_5000
+        weight: 4_0000
       - beneficiary: "Republic-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_5000
+        weight: 2_0000
       - beneficiary: "Talos-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 5_4083
       - beneficiary: "Talos-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
@@ -111,6 +107,10 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
+      - beneficiary: "DFNS-validator-1::1220b4a27fccdd8744ca317c428dc3005eb65c2f995e18dc271ebb00517419125952" # Dfns
+        weight: 0_6000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
+      - beneficiary: "SocieteGenerale-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
+        weight: 8_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
     rewardWeightBps: 24_0000
@@ -125,7 +125,7 @@ approvedSvIdentities:
         weight: 10_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKrg8RhVQXq6+EKlwTExaoOOEWMp2JyiA1xRkFZNZo6m5ixBgQwC4vvmkPadDvGsxEniwAfLi0l+1vbnROs04Q==
-    rewardWeightBps: 10_0000
+    rewardWeightBps: 6_0000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEb73mu4LMvV7PgwhI7VpDi/UhGalALpA3eiia8hN13Er0/X9CAwhWWBpUz7cAdnTIbQQcEp/AyagQjjMNZ+zKvw==
     rewardWeightBps: 10_0000
