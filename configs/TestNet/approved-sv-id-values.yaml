@@ -16,7 +16,7 @@ approvedSvIdentities:
     rewardWeightBps: 13_6125
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 200_6000
+    rewardWeightBps: 185_6000
     extraBeneficiaries:
       - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 0.92 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
         weight: 1_1950
@@ -38,10 +38,6 @@ approvedSvIdentities:
         weight: 1_0000
       - beneficiary: "figment-testnetvalidator-1::1220f232b5df71cbef84188ae74a78d364ed4ac2ea0a79a8dce6fd4543a5c8c50d6b" # Figment CIP-0054
         weight: 1_0000
-      - beneficiary: "MonsteraFZE-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Monstera FZE CIP-0052 # escrow party_id added to the GhostSV-validator-1
-        weight: 5_0000
-      - beneficiary: "WoodsideAI-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Woodside AI CIP-0059 # escrow party_id added to the GhostSV-validator-1
-        weight: 10_0000
       - beneficiary: "zerohash-validator-1::122064a0116d4d355319a5d006edcd50f1ec309167a0b22b2873dd94f231621dd476" # Zero Hash CIP-0060 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 3_5000
       - beneficiary: "ZeroHash-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
