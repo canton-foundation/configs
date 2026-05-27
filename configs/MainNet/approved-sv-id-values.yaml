@@ -140,8 +140,10 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Blockdaemon-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: "50000"
-      - beneficiary: "Tharimmune-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Tharimmune, Inc. CIP-0102 # escrow party_id added to the MPCH-GHOSTvalidator-1
-        weight: 15_0000
+      - beneficiary: "Tharimmune-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Tharimmune/CSH, Inc. CIP-0102 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 14_5000
+      - beneficiary: "CantonStrategicHoldings-SVrewards-1::12202e772b031912f34492b914d683b07edc6bbb656df6f9b75eda8c336e8ef5de5d" # Tharimmune/CSH, .5 split https://lists.sync.global/g/tokenomics-announce/message/323 https://github.com/canton-foundation/cips/blob/main/cip-0102/cip-0102.md
+        weight: 5000
       - beneficiary: "Visa-Escrow-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Visa CIP-0109 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 10_0000
   - name: Orb-1-LP-1
