@@ -97,7 +97,7 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
-      - beneficiary: "dfns1::122035d991d57991b9ef733ac4fb475de6257f17b20254a2f3f17c5b12322ed4174c" # Dfns CIP-0016
+      - beneficiary: "validator_DFNS::122055a1a137eacd142f00d72a7bd9c6b83ad00f65d97cb79a343d42c2077ae29ca6" # Dfns CIP-0016
         weight: 0_6000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
       - beneficiary: "SocieteGenerale-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
         weight: 8_0000
