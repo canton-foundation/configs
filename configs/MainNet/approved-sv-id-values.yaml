@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 188_1000
+    rewardWeightBps: 193_1000
     extraBeneficiaries:
       - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 2.42 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
         weight: 2_6950
@@ -103,6 +103,8 @@ approvedSvIdentities:
         weight: 0_5000
       - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 2_0000
+      - beneficiary: "FranklinTempleton-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
     rewardWeightBps: 15_9250
