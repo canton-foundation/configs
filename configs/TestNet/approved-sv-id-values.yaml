@@ -18,8 +18,8 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
     rewardWeightBps: 188_1000
     extraBeneficiaries:
-      - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 0.92 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
-        weight: 1_1950
+      - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 2.42 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
+        weight: 2_6950
       - beneficiary: "GSF-SVRewards-1::1220224995ee62e3176d395b1ae1fd95af8132b1da754e20af24e1c73074d936dced"
         weight: 10_0000
       - beneficiary: "thetie-validator-0::1220eba2eab5c94c78de4a64f600c9eab445af50f59e20bca8f555abbd53748d5223" # The Tie
@@ -64,10 +64,8 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Taurus-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
         weight: 2_0000
-      - beneficiary: "Fireblocks-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Fireblocks CIP-0072 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 2_0800
-      - beneficiary: "Fireblocks-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Fireblocks CIP-0072 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_0000
+      - beneficiary: "Fireblocks-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Fireblocks CIP-0072
+        weight: 2_5800
       - beneficiary: "BitGo-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # BitGo CIP-0074 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 2_8667
       - beneficiary: "BitGo-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
