@@ -59,7 +59,7 @@ jobs:
         id: get-missing-voters
         if: success() || failure()  # Run this step even if one of the previous steps failed
         run: |
-          result=$(scripts/get-missing-voters.sh 1) && exit_code=$? || exit_code=$?
+          result=$(scripts/get-missing-voters.sh 2) && exit_code=$? || exit_code=$?
           echo "$result"
 
           {
