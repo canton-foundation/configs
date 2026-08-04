@@ -48,13 +48,12 @@ Similar to the "`How to Ask for a New Whitelisted IP Process`" section above, yo
 For each network, locate the `read-only clients` section in the `config/<(DevNet|Testnet|Mainnet)>/allowed-ip-ranges.json` file and add a new element in this format:
 
 ```
-"<org-name> / <operator-name-or-sponsor-name>" : [
+"<org-name> / <sponsor-name>" : [
   "ip1/32",
   "ip2/32"
 ]
 ```
 
-When the organization runs the node themselves, list the sponsor in the second part after the dash (/).
 
 
 The key needs to be sorted. You can perform a sort with a one-line script:
@@ -67,7 +66,6 @@ Alternatively, you can use the script [new-whitelist.sh](https://github.com/glob
 
 Currently, only individual IPs are allowed, so you will need to explicitly write out multiple `/32` entries if you have a range. There isn't an official limit on how many IPs are allowed, but keep it fewer than three.
 
-Unlike validator IPs, read-only access IP addresses can be reused across all network environments (**Dev**, **Test**, and **Main**).
 
 When submitting the PR, briefly provide information about:
 
