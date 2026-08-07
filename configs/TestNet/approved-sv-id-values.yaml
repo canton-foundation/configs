@@ -122,6 +122,8 @@ approvedSvIdentities:
     extraBeneficiaries:
       - beneficiary: "auth0_007c67ac9d2a0e7d47579fd8d6a3::12204393562d687374821ac1413f623ddbf75c35a82779228edb0005120cbbc6535f" # Nima Capital
         weight: 5_0000
+      - beneficiary: "Lennar-SVrewards-1::1220afe506f24de2ee379a2b818a9535d4570586fa625480672ffbbc5d5ae3a8108d" # Nima Capital (Lennar)
+        weight: 5_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO3NIzHIIxatGCFHLdONUYNJ3SePvA4lq3EbtMgvpe1CoALZZ+CRNZrHNsj49jdeJNQgcJBPsOcW7XP6VF7Q1YA==
     rewardWeightBps: 10_0000
