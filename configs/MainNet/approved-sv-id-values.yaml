@@ -31,7 +31,7 @@ approvedSvIdentities:
         weight: 0_3000 # 30% of the full IntellectEU SV weight
       - beneficiary: "angelhack-mainnet-1::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060" # AngelHack CIP-0053
         weight: 2_5000
-      - beneficiary: "kaiko-mainnet-1::1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9" # Kaiko CIP-0063
+      - beneficiary: "kaiko-mainnet-3::12200c178d1f0bbefe2337e1c63a8bc3017ea14b3e773b918dae2f2d426340e58491" # Kaiko CIP-0063
         weight: 6_5000
       - beneficiary: "kiln-validator-1::12209024881cf76bf1c15342e9e3b4bd751d5582947a58b42a6532eef867f83ceea3" # Kiln CIP-0036
         weight: 1_0000
@@ -97,14 +97,16 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
-      - beneficiary: "validator_DFNS::122055a1a137eacd142f00d72a7bd9c6b83ad00f65d97cb79a343d42c2077ae29ca6" # Dfns CIP-0016
+      - beneficiary: "dfns1::122035d991d57991b9ef733ac4fb475de6257f17b20254a2f3f17c5b12322ed4174c" # Dfns CIP-0016
         weight: 0_6000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
       - beneficiary: "SocieteGenerale-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
         weight: 8_0000
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
         weight: 0_5000
       - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 2_0000
+        weight: 1_0000
+      - beneficiary: "Cumberland-Property-1::1220643de8d9bfdeb9187da2f770897fa50b34e17a39c0110edf91fe70d242853c25" # Ledger CIP-0069 # active party_id associated with the delegated lock relationship between Cumberland and Ledger
+        weight: 1_0000
       - beneficiary: "ft::12200b5582a91686c5278999a988a8e6ae2ff7f870834fe2deccbafaefad73db4f2d" # Franklin Templeton CIP-0118 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 1_0000
       - beneficiary: "FranklinTempleton-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
