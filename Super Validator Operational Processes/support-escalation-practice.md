@@ -2,9 +2,9 @@
 
 ### Status
 
-Draft for Super Validator operator review.
+Final Process
 
-This process reflects current operational consensus discussed in the Super Validator operations call and should be reviewed, edited, and approved by the Super Validator operators before being treated as final.
+This process reflects current operational consensus discussed in the Super Validator operations call and has been reviewed by Super Validator operators.
 
 ## Purpose
 
