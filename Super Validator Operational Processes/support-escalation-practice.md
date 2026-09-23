@@ -1,4 +1,4 @@
-## Super Validator Node Incident Escalation and Offboarding Process
+## MainNet Super Validator Node Incident Escalation and Offboarding Process
 
 ### Status
 
@@ -8,12 +8,14 @@ This process reflects current operational consensus discussed in the Super Valid
 
 ## Purpose
 
-This process defines how Super Validator operators coordinate incident escalation and, when necessary, initiate an offboarding vote for a Super Validator node that is unavailable, unresponsive, misconfigured, or otherwise creating material operational risk to the Global Synchronizer or Canton Network.
+This process defines how Super Validator operators coordinate incident escalation and, when necessary, initiate an offboarding vote for a MainNet Super Validator node that is unavailable, unresponsive, misconfigured, or otherwise creating material operational risk to the Global Synchronizer or Canton Network.
+
 The purpose of this process is to protect network stability, availability, security, and operational resilience while maintaining a clear and auditable record of incident response and governance actions.
 
 ## Scope
 
-This process applies to operational incidents involving a Super Validator node where offboarding may be required.
+This process applies to operational incidents involving a MainNet Super Validator node where offboarding may be required.
+
 - This process covers:
    - Escalation of Super Validator node incidents
    - Expected response timelines
@@ -28,6 +30,10 @@ This process applies to operational incidents involving a Super Validator node w
    - The CIP-0111 process for reducing Super Validator reward weight
    - Featured App, Validator, compliance, or Tokenomics review processes
    - Regular software release or bugfix release processes
+
+The four-hour incident response and offboarding timelines in this process apply to MainNet only. Existing DevNet and TestNet operating practices remain unchanged, including more flexible remediation timelines and no expectation that non-critical issues be remediated overnight, on weekends, or during holidays.
+
+For DevNet and TestNet incidents, operators should continue to communicate the issue, expected impact, remediation status, and estimated resolution timeline through the appropriate operational channels.
 
 If the issue is caused by a validator, application, whitelisted IP, infrastructure provider, or other non-Super-Validator participant, the Emergency IP Whitelist Removal Process may be the more appropriate process.
 
@@ -47,26 +53,42 @@ The current escalation contact list should be maintained in a private repository
 Public process documents may link to the private contact repository, but must not expose private escalation addresses directly.
 
 ## Guiding Principles
+
 ### 1. Network stability comes first
+
 The purpose of offboarding is to protect the Global Synchronizer and Canton Network when a Super Validator node is causing, or is reasonably believed to be causing, material operational risk.
+
 ### 2. Escalation should normally precede offboarding
+
 An offboarding vote should normally be proposed only after the affected operator has been escalated to and has not responded or has not remediated the issue in time.
+
 ### 3. The process requires judgment
+
 “Node down” is not always a binary condition. Status reports, sequencer health, mediator health, Scan behavior, ingress configuration, topology progress, database behavior, Canton BFT configuration, and other operational signals may all be relevant.
+
 Operators must use reasonable judgment based on the actual impact to the network.
-### 4. The four-hour timeline should be real
-The incident response and offboarding process should not be extended merely to be “nice.” If a four-hour window is required, operators should treat that as an actual operational commitment.
+
+### 4. The four-hour MainNet timeline should be real
+
+The incident response and offboarding process should not be extended merely to be “nice.” If a four-hour window is required for a MainNet incident covered by this process, operators should treat that as an actual operational commitment.
+
 ### 5. Operators must be able to vote in time
+
 Each Super Validator operator should either be empowered by its Super Validator rights owner to vote on operational offboarding matters, or must ensure that the relevant rights owner is available on short notice.
+
 If rights-owner approval is required, that approval path must work within the four-hour window.
+
 ### 6. Slack is not enough
+
 Slack discussion is useful during incidents, but the durable record should be preserved through email, GitHub, onchain vote descriptions, or another persistent record.
+
 ### 7. Effective-at-threshold should be rare
+
 Effective-at-threshold should be reserved for emergency situations where immediate action is required. It should not be the default setting for offboarding votes if a four-hour effectivity window is sufficient.
 
 ## Qualifying Events
 
-An offboarding vote may be considered when there is a reasonable belief that continued participation by a Super Validator node presents a material risk to the network.
+An offboarding vote may be considered when there is a reasonable belief that continued participation by a MainNet Super Validator node presents a material risk to the network.
 
 Examples include:
 - The Super Validator node is down or unable to perform required network functions.
@@ -83,14 +105,15 @@ A node should not be offboarded merely because it had a transient issue, if the 
 ## Incident Escalation Procedure
 
 ### Step 1 - Identify and Document the Issue
+
 The operator identifying the issue should collect and document available evidence, such as:
  - Affected Super Validator node
-- Start time or approximate discovery time
-- Observable symptoms
-- Network impact
-- Relevant metrics, logs, dashboards, screenshots, or command output
-- Whether the affected operator has already been contacted
-- Whether the issue appears to be resolved, ongoing, or worsening
+ - Start time or approximate discovery time
+ - Observable symptoms
+ - Network impact
+ - Relevant metrics, logs, dashboards, screenshots, or command output
+ - Whether the affected operator has already been contacted
+ - Whether the issue appears to be resolved, ongoing, or worsening
 
 The issue should be raised in the appropriate Super Validator operations Slack channel.
 
@@ -105,6 +128,7 @@ Super Validator Node Incident Escalation — [Affected SV Node] — [Action Need
 
 **Body:**
 You may receive multiple instances of this escalation from various Super Validator operators.
+
 Please escalate this incident to your Super Validator operations team.
 
 **Affected Super Validator node:**
@@ -132,7 +156,8 @@ Please escalate this incident to your Super Validator operations team.
  [Link to the most recent relevant Slack thread, if available]
  
 ### Step 3 - Start the Four-Hour Incident Clock
-The four-hour incident response clock starts when the formal escalation message is sent.
+
+For MainNet incidents covered by this process, the four-hour incident response clock starts when the formal escalation message is sent.
 
 If an offboarding vote is created without a prior formal escalation because of an urgent emergency, the four-hour clock starts when the offboarding vote announcement is sent.
 
@@ -144,6 +169,7 @@ During this period, the affected operator should acknowledge the escalation and 
 - Any other information needed by the Super Validator operators to assess risk
 
 ### Step 4 - Decide Whether to Propose Offboarding
+
 An offboarding vote should normally be considered if:
 
 - The affected operator does not respond within a reasonable period after escalation;
@@ -177,6 +203,7 @@ If the vote UI requires a URL, the URL should point to a durable record such as 
 ### Step 2 - Announce the Vote
 
 The proposing operator should announce the vote through the appropriate Super Validator operations email channel and Slack channel.
+
 The announcement should include:
 - Link to the vote proposal or vote contract ID
 - Affected Super Validator node
@@ -220,12 +247,15 @@ Examples where effective-at-threshold should not be used:
 - Cases where the four-hour window is sufficient
 
 ### Step 5 - If the Vote Passes
+
 If the offboarding vote passes, Super Validator operators should complete any required local, configuration, or operational steps as quickly as practical.
+
 Operators should confirm completion in the appropriate Super Validator operations Slack and email channels.
 
 If GitHub configuration changes are required, the responsible operator should create the appropriate pull request and request review from the relevant maintainers. If the offboarding action also requires a Super Validator reward weight reduction, host SV weight adjustment, beneficiary-list update, or approved SV onboarding configuration change, the proposing operator should identify the applicable CIP process, including CIP-0111 where relevant, and ensure that the required follow-through is documented in the incident record.
 
 ### Step 6 - If the Vote Fails or Expires
+
 If the vote fails or expires, the proposing operator should summarize the outcome in the incident record.
 
 The summary should include:
@@ -236,6 +266,7 @@ The summary should include:
 - Any agreed follow-up actions
 
 ## Post-Incident Documentation
+
 Within 48 hours of the incident, the proposing operator should prepare a short incident summary.
 
 The summary should include:
@@ -255,8 +286,13 @@ The summary should be posted to the appropriate durable record.
 Sensitive contact details, private infrastructure details, or confidential security information should not be included in the public repository.
 
 ## Quarterly Escalation Practice
+
 Foundation Operations should coordinate a Super Validator escalation practice at least once per quarter.
+
+The quarterly escalation practice tests the escalation paths needed to support MainNet operations. It does not change existing DevNet or TestNet support expectations or create a 24/7 response requirement for those environments.
+
 ### Purpose
+
 The purpose of the escalation practice is to:
  
 - Trigger the internal escalation procedures at each Super Validator.
@@ -265,11 +301,13 @@ The purpose of the escalation practice is to:
 - Identify outdated contacts, broken alerting paths, or gaps in internal escalation coverage before an actual incident.
 
 ### Anti-Goal
+
 The purpose of the practice is not to test overnight wake-up procedures or unnecessarily alert operators during overnight hours.
 
 Practice escalations should be scheduled to avoid overnight hours for the receiving operators whenever reasonably practical.
 
 ### Process
+
 1. Foundation Operations assigns one Super Validator operator to send the practice escalation emails.
 2. The assigned Super Validator sends escalation emails in two or three batches over an approximately six-hour period.
 3. The batches should be scheduled to allow non-overnight alerts across major regions.
@@ -283,4 +321,3 @@ Practice escalations should be scheduled to avoid overnight hours for the receiv
 10. Foundation Operations should summarize the practice results and follow-up actions.
 
 The summary should not expose confidential escalation email addresses or private infrastructure details in the public repository.
-
