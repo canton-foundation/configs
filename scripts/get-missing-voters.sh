@@ -41,8 +41,8 @@ get_missing_voters() {
     local voterequests_url=${envs_and_urls[i + 2]}
 
     echo "INFO: Fetching DSO and Vote Requests for $env..." >&2
-    local dso; dso=$("${CURL_CMD[@]}" "$dso_url")
-    local voterequests; voterequests=$("${CURL_CMD[@]}" "$voterequests_url")
+    local dso; dso=$("${CURL_CMD[@]}" "$dso_url") || return 1
+    local voterequests; voterequests=$("${CURL_CMD[@]}" "$voterequests_url") || return 1
 
     # jq -r "$jq_functions"'.dso_rules_vote_requests[] |= select(.payload.voteBefore == "2025-05-31T11:00:03.735397Z")'
     # note that voteBefore can be null, so we need to handle that case
