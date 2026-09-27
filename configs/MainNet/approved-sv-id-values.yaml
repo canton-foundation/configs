@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 195_5000
+    rewardWeightBps: 197_1000
     extraBeneficiaries:
       - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 2.42 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo) + 0.4 (Wormhole)
         weight: 3_0950
@@ -112,9 +112,9 @@ approvedSvIdentities:
       - beneficiary: "FranklinTempleton-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
         weight: 4_0000
       - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
-        weight: 0_6000 # Tier 2, 60% (full weight 10000)
+        weight: 1_0000
       - beneficiary: "Taurus-Wallet-1::122018406e4cb9114d63d33f04d6292acc029e2aa739e189c9fc35efb724ead0b57c" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 1_8000 # Tier 2, 60% (full weight 30000)
+        weight: 3_0000
       - beneficiary: "TreasurySpring-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0122 # escrow party_id added to the GhostSV-validator-1
         weight: 4_0000
   - name: Digital-Asset-1
