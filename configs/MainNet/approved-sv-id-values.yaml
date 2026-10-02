@@ -134,7 +134,7 @@ approvedSvIdentities:
     rewardWeightBps: 15_9250
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
-    rewardWeightBps: 35_0000
+    rewardWeightBps: 45_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH - wallet
         weight: 3000
@@ -155,6 +155,8 @@ approvedSvIdentities:
       - beneficiary: "CantonStrategicHoldings-SVrewards-1::12202e772b031912f34492b914d683b07edc6bbb656df6f9b75eda8c336e8ef5de5d" # Tharimmune/CSH, .5 split https://lists.sync.global/g/tokenomics-announce/message/323 https://github.com/canton-foundation/cips/blob/main/cip-0102/cip-0102.md
         weight: 6_5000
       - beneficiary: "Visa-Escrow-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Visa CIP-0109 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 10_0000
+      - beneficiary: "Marex-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon/Marex CIP-0126 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 10_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYSpqOpqB6lWVLfu7ojM/GTSALZK2X1MAKhJoZIJP+G7WkDo0Hap4VZtaSyrKiTqlcKu4ycgJ5UEG1WAkoKYjOA==
