@@ -100,7 +100,7 @@ approvedSvIdentities:
         weight: 8_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
-    rewardWeightBps: 35_0000
+    rewardWeightBps: 55_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f44bc7589a682afe95a21d::12200a154afee0ada3b0cc9139e4356187d8c62747f2a9584b1893a47280f31a5ce1" # MPCH
         weight: 3000
@@ -117,6 +117,8 @@ approvedSvIdentities:
       - beneficiary: "CantonStrategicHoldings-SVrewards-1::1220184b26658fab71322a3b0f1419d7f7dff6467a8bce9266928f2a5711124c22c6" # Tharimmune/CSH https://lists.sync.global/g/tokenomics-announce/message/323 / https://github.com/canton-foundation/cips/blob/main/cip-0102/cip-0102.md
         weight: 6_5000
       - beneficiary: "Visa-Escrow-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # Visa CIP-0109 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 10_0000
+      - beneficiary: "LSEG-ghost-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # London Stock Exchange Group (LSEG) CIP-0124 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 10_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM/I3om2cE1ccDhYdy3wwKys3afBskv/OsRe8Jr52RywZOke+TfNbqQYcltATswgDi3HPdJUG3IEgo4Fh2vfl+g==
