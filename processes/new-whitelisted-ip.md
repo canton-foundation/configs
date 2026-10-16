@@ -56,6 +56,10 @@ For each network, locate the `read-only clients` section in the `configs/<networ
 ```
 The key needs to be sorted.
 
+```
+jq '."read-only clients" |= (to_entries | sort_by(.key | ascii_downcase) | from_entries)' configs/<(DevNet|Testnet|Mainnet)>/allowed-ip-ranges.json > tmp.json && mv tmp.json configs/MainNet/allowed-ip-ranges.json
+```
+
 Alternatively, you can use the script [new-whitelist.sh](https://github.com/global-synchronizer-foundation/configs-private/blob/main/scripts/new-whitelist.sh), which automates most of the steps above, including PR creation.
 
 Currently, only individual IPs are allowed, so you will need to explicitly write out multiple /32 entries if you have a range. There isn't an official limit on how many IPs are allowed, but keep it fewer than three.
