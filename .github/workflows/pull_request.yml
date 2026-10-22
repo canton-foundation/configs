@@ -35,9 +35,9 @@ jobs:
           base_dir: configs
           use_gitignore: false
 
-      - name: Check SV IDs for duplicates
+      - name: Check SV IDs and names
         run: |
-          result=$(scripts/check-sv-id-dups.sh) && exit_code=$? || exit_code=$?
+          result=$(scripts/check-svs.sh) && exit_code=$? || exit_code=$?
           echo "$result"
 
           {
