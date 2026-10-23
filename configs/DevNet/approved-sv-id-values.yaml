@@ -107,7 +107,7 @@ approvedSvIdentities:
         weight: 8_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
-    rewardWeightBps: 55_0000
+    rewardWeightBps: 65_0000
     extraBeneficiaries:
       - beneficiary: "HexTrust-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 2_0000
@@ -126,6 +126,8 @@ approvedSvIdentities:
       - beneficiary: "Marex-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # Blockdaemon/Marex CIP-0126 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 10_0000
       - beneficiary: "LSEG-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # London Stock Exchange Group (LSEG) CIP-0124 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 10_0000
+      - beneficiary: "a16z-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # a16z CIP-0123 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 10_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKrg8RhVQXq6+EKlwTExaoOOEWMp2JyiA1xRkFZNZo6m5ixBgQwC4vvmkPadDvGsxEniwAfLi0l+1vbnROs04Q==
