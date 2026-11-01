@@ -94,8 +94,6 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
-      - beneficiary: "dfnstest1::122060195c0add31a2b3a57292a7a8f033c88c98b1ae8e36e6610e3b0e0b41aeeb6d" # Dfns
-        weight: 0_6000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
       - beneficiary: "SocieteGenerale-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
         weight: 8_0000
   - name: MPC-Holding-Inc
