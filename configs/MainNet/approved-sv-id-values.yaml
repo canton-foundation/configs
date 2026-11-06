@@ -1,210 +1,317 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
+    svRightsOwnerName: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
     rewardWeightBps: 195_3000
     extraBeneficiaries:
-      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 2.42 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo) + 0.4 (Wormhole)
-        weight: 3_0950
+      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ubyx CIP-0071 # 0.05 of unassigned weight added to the GhostSV-validator-1
+        svRightsOwnerName: Ubyx
+        weight: 500
+      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Fireblocks CIP-0072 # 2.42 of unassigned weight added to the GhostSV-validator-1
+        svRightsOwnerName: Fireblocks
+        weight: 2_4200
+      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # 0.0917 of unassigned weight added to the GhostSV-validator-1
+        svRightsOwnerName: Talos
+        weight: 917
+      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0074 # 0.1333 of unassigned weight added to the GhostSV-validator-1
+        svRightsOwnerName: BitGo
+        weight: 1333
+      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # 0.4 of unassigned weight added to the GhostSV-validator-1
+        svRightsOwnerName: Wormhole
+        weight: 4000
       - beneficiary: "GSF-SVRewards-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
+        svRightsOwnerName: Global-Synchronizer-Foundation
         weight: 10_0000
       - beneficiary: "validator_Broadridge::1220b0008ea5531b9e47d3315a822ca8b923b5bdd568c934557402d7160b8af4815d"
+        svRightsOwnerName: Broadridge
         weight: 10_0000
       - beneficiary: "the_tie_validator::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa" # The Tie
+        svRightsOwnerName: The-Tie
         weight: 1_0000
       - beneficiary: "copper-mainnet-validator::122038dd7fcbdd68bde47034abfd582cbe38854d94dec10c18a7589706914e2b6e61" # Copper
+        svRightsOwnerName: Copper
         weight: 1_0000
       - beneficiary: "copper-mainnet-validator::122038dd7fcbdd68bde47034abfd582cbe38854d94dec10c18a7589706914e2b6e61" # Copper Clearloop CIP-0039
+        svRightsOwnerName: Copper
         weight: 1_0000
       - beneficiary: "ObsidianSystems-validator-1::1220f8a24f975dc3d070e3111279bc2bf2d713a77c5570cbdd2064acb6a4d8d6feea" # Obsidian Systems CIP-0037
+        svRightsOwnerName: Obsidian-Systems
         weight: 1_0000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Coin Metrics CIP-0046
+        svRightsOwnerName: Coin-Metrics
         weight: 1_0000
       - beneficiary: "Circle-SvRewardsStaking-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041 # acts as a staking address
+        svRightsOwnerName: Circle
         weight: 7_0000 # 70% of the full Circle SV weight
       - beneficiary: "Circle-SvRewardsActive-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041 # acts as a party for the remaining weight
+        svRightsOwnerName: Circle
         weight: 3_0000 # 30% of the full Circle SV weight
       - beneficiary: "bitwave-finance-1::1220ab03fc0c7f77428d8f568276b64a6e6a04e340c842581a0d4e676ad7e094c1bb" # Bitwave CIP-0055
+        svRightsOwnerName: Bitwave
         weight: 1_0000
       - beneficiary: "IntellectEU-SvRewardsStaking-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # acts as a staking address
+        svRightsOwnerName: IntellectEU
         weight: 0_7000 # 70% of the full IntellectEU SV weight
       - beneficiary: "IntellectEU-SvRewardsActive-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # acts as a party for the remaining weight
+        svRightsOwnerName: IntellectEU
         weight: 0_3000 # 30% of the full IntellectEU SV weight
       - beneficiary: "angelhack-mainnet-1::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060" # AngelHack CIP-0053
+        svRightsOwnerName: AngelHack
         weight: 2_5000
       - beneficiary: "kaiko-mainnet-3::12200c178d1f0bbefe2337e1c63a8bc3017ea14b3e773b918dae2f2d426340e58491" # Kaiko CIP-0063
+        svRightsOwnerName: Kaiko
         weight: 6_5000
       - beneficiary: "kiln-validator-1::12209024881cf76bf1c15342e9e3b4bd751d5582947a58b42a6532eef867f83ceea3" # Kiln CIP-0036
+        svRightsOwnerName: Kiln
         weight: 1_0000
       - beneficiary: "figment-mainnetValidator-1::1220b46e6ce64f99510274b4aaa573b32089e69cfee0f1e918539f19f78e9ea23ba4" # Figment CIP-0054
+        svRightsOwnerName: Figment
         weight: 1_0000
       - beneficiary: "TRM-validator-1::1220bc3dc0350c7c2479ff1e7dfc67f4af0ee25c9ab63861d953483d9bdbb36691fe" # TRM CIP-0043
+        svRightsOwnerName: TRM
         weight: 2_5000
       - beneficiary: "zerohash-validator-1::1220d02b9d8aae4fa3425f6c6a5eb7972d6b7add35ed91914fff13bf242eba7b87b0" # Zero Hash CIP-0060 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Zero-Hash
         weight: 3_5000
       - beneficiary: "ZeroHash-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Zero-Hash
         weight: 4_0000
       - beneficiary: "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4" # Ubyx CIP-0071 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Ubyx
         weight: 3_4500
       - beneficiary: "Ubyx-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Ubyx
         weight: 1_5000
       - beneficiary: "hypernative-validator-1::122055c3d9a3ac09fbeb9fcb9da8ab1582ccf3844220adda46ef99ef946513b40f75" # Hypernative CIP-0076
+        svRightsOwnerName: Hypernative
         weight: 1_0000
       - beneficiary: "Chainlink-Mainnet-1::1220dd5b27f9e0459ec77822784d0e9b6c106fe4a71e9d5c19bd8ac574d2ab02f50e" # Chainlink CIP-0061
+        svRightsOwnerName: Chainlink
         weight: 7_5000
       - beneficiary: "Chainlink-Mainnet-1::1220dd5b27f9e0459ec77822784d0e9b6c106fe4a71e9d5c19bd8ac574d2ab02f50e" # Chainlink CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Chainlink
         weight: 1_5000
       - beneficiary: "Chainlink-ghost-2::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Chainlink
         weight: 1_5000
       - beneficiary: "lz-vault::1220f9a30f41d8ac4c92275e6fa07c63119ea05311b905097b925910a5842099f607" # Layer Zero CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Layer-Zero
         weight: 1_5000
       - beneficiary: "LayerZero-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Layer Zero CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Layer-Zero
         weight: 1_5000
       - beneficiary: "wormhole-validator-1::122085bf64156420a95663eb8b8cce516858de1d531d95850debe9ec8d15e3f6263e" # Wormhole CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Wormhole
         weight: 1_1000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Wormhole
         weight: 1_5000
       - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Ledger
         weight: 3_0000
       - beneficiary: "Taurus-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Taurus
         weight: 2_0000
       - beneficiary: "fb-linkprd-1::1220f36cae436fcf2c40f31656cdc0ffe8b3db5047b6f2da1f87435393efa2bcd263" # Fireblocks CIP-0072
+        svRightsOwnerName: Fireblocks
         weight: 2_5800
       - beneficiary: "Bitgo-mainnetValidator-1::1220339ffe631ef7d0296d957d467186b6693e89b8fa654e9acfaa2b4f53437310ff" # BitGo CIP-0074 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: BitGo
         weight: 2_8667
       - beneficiary: "BitGo-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: BitGo
         weight: 2_0000
       - beneficiary: "Zodia-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Zodia
         weight: 5_0000
       - beneficiary: "Republic-sv-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44" # Republic CIP-0080 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Republic
         weight: 4_0000
       - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Republic
         weight: 2_0000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Talos
         weight: 5_4083
       - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Talos
         weight: 1_0000
       - beneficiary: "Zenith-validator-1::12207fb1d16c5b29d60aad5756041bd0e2b248a54154a4d29e49f6bf35b43fd4b488" # Zenith CIP-0091 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Zenith
         weight: 4_0000
       - beneficiary: "Zenith-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zenith CIP-0091 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Zenith
         weight: 6_0000
       - beneficiary: "USDT0-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # USDT0 CIP-0090 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: USDT0
         weight: 10_0000
       - beneficiary: "DTCC-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # DTCC CIP-0083 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: DTCC
         weight: 10_0000
       - beneficiary: "Mesh-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Mesh CIP-0095 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Mesh
         weight: 10_0000
       - beneficiary: "Nasdaq-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Nasdaq CIP-0097 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Nasdaq
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: YZi-Labs
         weight: 10_0000
       - beneficiary: "SocieteGenerale-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Societe-Generale
         weight: 8_0000
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
+        svRightsOwnerName: Elliptic
         weight: 0_5000
       - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Ledger
         weight: 1_0000
       - beneficiary: "Cumberland-Property-1::1220643de8d9bfdeb9187da2f770897fa50b34e17a39c0110edf91fe70d242853c25" # Ledger CIP-0069 # active party_id associated with the delegated lock relationship between Cumberland and Ledger
+        svRightsOwnerName: Ledger
         weight: 1_0000
       - beneficiary: "ft::12200b5582a91686c5278999a988a8e6ae2ff7f870834fe2deccbafaefad73db4f2d" # Franklin Templeton CIP-0118 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Franklin-Templeton
         weight: 1_0000
       - beneficiary: "FranklinTempleton-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: Franklin-Templeton
         weight: 4_0000
       - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
+        svRightsOwnerName: Quantstamp
         weight: 1_0000
       - beneficiary: "TreasurySpring-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0122 # escrow party_id added to the GhostSV-validator-1
+        svRightsOwnerName: TreasurySpring
         weight: 4_0000
       - beneficiary: "Taurus-Wallet-1::122018406e4cb9114d63d33f04d6292acc029e2aa739e189c9fc35efb724ead0b57c" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: Taurus
         weight: 1_8000
   - name: Digital-Asset-1
+    svRightsOwnerName: Digital-Asset
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
     rewardWeightBps: 15_9250
   - name: SV-Nodeops-Limited
+    svRightsOwnerName: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQfazgfYYYuXXuUmujEUnLYsQfWnb8CEKsddv7Gt0SqG2v9Tx9/LyzteOdPOSXtb5XODumthhfpFh0MLnU8w+eQ==
     rewardWeightBps: 10_2500
   - name: Cumberland-1
+    svRightsOwnerName: Cumberland
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0oiJ1uUtJ5J4uduDUsuluNoIRCkptsQG6xAkS+D2by50QmSdEvW+IyndIKQSnyQIpUF6ezCLMQGfnLtjsPcrkw==
     rewardWeightBps: 13_6125
   - name: Cumberland-2
+    svRightsOwnerName: Cumberland
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEl2ilRkAgmWGR4mqHHR15zqDvGs64nu+n0JPJR0i9r5xzEU4GW52sKov34LdYXQq3K//w7W+NDFw+RfxfEYvDbA==
     rewardWeightBps: 13_6125
   - name: Digital-Asset-2
+    svRightsOwnerName: Digital-Asset
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXENgmM6XF+Dl45CCFlga8mFFX9LgcZWeRJPogk4qD8UVyulAw5v5yjVJtZfxj7G61+La1t5pgUaBfdSl0SB0TA==
     rewardWeightBps: 15_9250
   - name: MPC-Holding-Inc
+    svRightsOwnerName: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
     rewardWeightBps: 65_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH - wallet
+        svRightsOwnerName: MPC-Holding-Inc
         weight: 3000
       - beneficiary: "auth0_007c69dcad2a0dc0711745bca087::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # MPCH - locking wallet
+        svRightsOwnerName: MPC-Holding-Inc
         weight: 7000
       - beneficiary: "auth0_007c6882116872613fe1d8b0aeb6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - wallet
+        svRightsOwnerName: Lukka
         weight: 1_0000
       - beneficiary: "HexTrust-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: Hex-Trust
         weight: 2_0000
       - beneficiary: "HexTrust-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # HexTrust CIP-0087
+        svRightsOwnerName: Hex-Trust
         weight: 1_0000
       - beneficiary: "Blockdaemon-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: Blockdaemon
         weight: 4_0000
       - beneficiary: "Blockdaemon-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # Blockdaemon CIP-0094
+        svRightsOwnerName: Blockdaemon
         weight: 1_0000
       - beneficiary: "Tharimmune-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Tharimmune, Inc. (Canton Strategic Holdings) CIP-0102, CIP-0114 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: Tharimmune
         weight: 7_1250
       - beneficiary: "CantonStrategicHoldings-SVrewards-1::12202e772b031912f34492b914d683b07edc6bbb656df6f9b75eda8c336e8ef5de5d" # Tharimmune/CSH, .5 split https://lists.sync.global/g/tokenomics-announce/message/323 https://github.com/canton-foundation/cips/blob/main/cip-0102/cip-0102.md
+        svRightsOwnerName: Tharimmune
         weight: 7_8750
       - beneficiary: "Visa-Escrow-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Visa CIP-0109 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: Visa
         weight: 10_0000
       - beneficiary: "Marex-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon/Marex CIP-0126 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: Marex
         weight: 10_0000
       - beneficiary: "LSEG-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # London Stock Exchange Group (LSEG) CIP-0124 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: LSEG
         weight: 10_0000
       - beneficiary: "a16z-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # a16z CIP-0123 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        svRightsOwnerName: a16z
         weight: 10_0000
   - name: Orb-1-LP-1
+    svRightsOwnerName: Orb-1-LP
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYSpqOpqB6lWVLfu7ojM/GTSALZK2X1MAKhJoZIJP+G7WkDo0Hap4VZtaSyrKiTqlcKu4ycgJ5UEG1WAkoKYjOA==
     rewardWeightBps: 10_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c67acae90ab8ef9d344b817b4::12205d4d358e9de3351c74419d9746ea9083854c113f826240fe2b2ce808a51a3a7e" # Nima Capital
+        svRightsOwnerName: Orb-1-LP
         weight: 5_0000
       - beneficiary: "auth0_007c6723cbcc5cee3153df57da4d::122039b0120dda65f350bbd22731b636ffe2eb757a4f04bf41a18d689c6e9351633a" # Nima Capital (Lennar)
+        svRightsOwnerName: Orb-1-LP
         weight: 5_0000
   - name: Tradeweb-Markets-1
+    svRightsOwnerName: Tradeweb-Markets
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYMTwBnr8tq7dL7/o5WyzZ1hzm6CvFCWtXHnyTC5zkmXKYcr37d7CQ8+tBBy0JAHvsGvmE33B+tAucEVfJnkBzw==
     rewardWeightBps: 10_0000
   - name: C7-Technology-Services-Limited
+    svRightsOwnerName: C7-Technology-Services-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdRk0Ef3U0VSxdBo3/azkCY2Y7VFV6sM/7O1u93VHbAgJSqIeQK3B2yklxjKvZJDUyz0jNjuSF4Zvc780nv9IHg==
     rewardWeightBps: 10_5750
     extraBeneficiaries:
       - beneficiary: "C7-SvRewardsStaking-1::1220597867c9c8594630ce44b8b28fa603061c554b65cfc1a17ed74b2f62d0651402" # acts as a staking address
+        svRightsOwnerName: C7-Technology-Services-Limited
         weight: 7_4025 # 70% of the full C7 SV weight
       - beneficiary: "C7-SvRewardsActive-1::1220597867c9c8594630ce44b8b28fa603061c554b65cfc1a17ed74b2f62d0651402" # acts as a party for the remaining weight
+        svRightsOwnerName: C7-Technology-Services-Limited
         weight: 3_1725 # 30% of the full C7 SV weight
   - name: Proof-Group-1
+    svRightsOwnerName: Proof-Group
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvczD+F72UNwVtsqqfY6iBif7q2BAq3EYu+6Gad6Xjxqv2IFVvr7TUzx5PYbu/eG34Q7sceZKnhzBKfi4b2Eclg==
     rewardWeightBps: 1_2500
   - name: Liberty-City-Ventures-1
+    svRightsOwnerName: Liberty-City-Ventures
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQv53m25mctcprUUt3YKg+yJvqtRI+rxTy5alROf4hqCD1rb/w5G8/XPwOI5jFqAj5RTcDGyRz+LLxn28k63UxQ==
     rewardWeightBps: 10_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c684b4b8ad82363a45f6ccbb3::122078c40a05ac97e98209750599560884c916e3c89878d6e5a0df3e708588b7525f"
+        svRightsOwnerName: Liberty-City-Ventures
         weight: 3_0000
       - beneficiary: "auth0_007c69ea9fbd1ad8bdd64747b386::122078c40a05ac97e98209750599560884c916e3c89878d6e5a0df3e708588b7525f"
+        svRightsOwnerName: Liberty-City-Ventures
         weight: 7_0000
   - name: Five-North-1
+    svRightsOwnerName: Five-North
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGe25jhw59y0TXgGkEmWLgCjG9D3yq4GweHzGLQ7cnbNVUqiG/ndXeFLJG1rQy6a+Ky0XfJDdcs8yCvbbsV+qqg==
     rewardWeightBps: 33_0000
     extraBeneficiaries:
       - beneficiary: "bsv-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-mainnet-1
+        svRightsOwnerName: Bosphorus-SV
         weight: 6_0000
       - beneficiary: "qcp-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # QCP Group (QCP)  CIP-0106 # escrow party_id hosted on 5nghost-mainnet-1
+        svRightsOwnerName: QCP-Group
         weight: 4_0000
       - beneficiary: "qcp-vault-001::1220f7ecd95d1f40ba91a3a8106348d280ad1250437fce34cafd4368246fae39c806" # QCP Group (QCP)  CIP-0106
+        svRightsOwnerName: QCP-Group
         weight: 1_0000
       - beneficiary: "chainsafe-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # ChainSafe  CIP-0086 # escrow party_id hosted on 5nghost-mainnet-1
+        svRightsOwnerName: ChainSafe
         weight: 2_0000
       - beneficiary: "further-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # Further Asset Management (Further)  CIP-0113 # escrow party_id hosted on 5nghost-mainnet-1
+        svRightsOwnerName: Further-Asset-Management
         weight: 8_0000
       - beneficiary: "chainsafe-sv-0::122043f0b94e28125e4c65aa7e0f0ded912472731695f01cc83aa41ad3f03965a19b" # ChainSafe  CIP-0086 # active party_id used to receive an earned weight for completed milestone(s)
+        svRightsOwnerName: ChainSafe
         weight: 1_9500
       - beneficiary: "apollo-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # Apollo Global Management (Apollo)  CIP-0110 # escrow party_id hosted on 5nghost-mainnet-1
+        svRightsOwnerName: Apollo-Global-Management
         weight: 7_0000
