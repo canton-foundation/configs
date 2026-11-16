@@ -115,6 +115,8 @@ approvedSvIdentities:
         weight: 4_0000
       - beneficiary: "Taurus-Wallet-1::122018406e4cb9114d63d33f04d6292acc029e2aa739e189c9fc35efb724ead0b57c" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 1_8000
+      - beneficiary: "Paxos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Paxos CIP-0125 # escrow party_id added to the GhostSV-validator-1
+        weight: 8_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
     rewardWeightBps: 15_9250
