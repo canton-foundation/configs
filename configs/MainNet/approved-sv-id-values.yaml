@@ -97,8 +97,12 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
+      - beneficiary: "sgas_sv_lock::12205b32d75cf9802fee19392299bf816c4bc6ccf979721a35b751692af0ad6fa1a5" # Societe Generale CIP-0115 # active party_id used to receive an earned weight for completed milestone(s) # acts as a staking address
+        weight: 1_4200
+      - beneficiary: "sgas_sv_unlock::122088936884c44479a7fb83ed59f4f1363f124ae8e82e9681c78e4c5b2d8ac175d8" # Societe Generale CIP-0115 # active party_id used to receive an earned weight for completed milestone(s) # acts as a party for the remaining weight
+        weight: 0_5800
       - beneficiary: "SocieteGenerale-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
-        weight: 8_0000
+        weight: 6_0000
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
         weight: 0_5000
       - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
