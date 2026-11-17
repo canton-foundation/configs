@@ -1,10 +1,8 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 203_3000
+    rewardWeightBps: 176_4550
     extraBeneficiaries:
-      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 2.42 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo) + 0.4 (Wormhole)
-        weight: 3_0950
       - beneficiary: "GSF-SVRewards-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: 10_0000
       - beneficiary: "validator_Broadridge::1220b0008ea5531b9e47d3315a822ca8b923b5bdd568c934557402d7160b8af4815d"
@@ -19,15 +17,15 @@ approvedSvIdentities:
         weight: 1_0000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Coin Metrics CIP-0046
         weight: 1_0000
-      - beneficiary: "Circle-SvRewardsStaking-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041 # acts as a staking address
+      - beneficiary: "Circle-SvRewardsStaking-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041 # active party_id used to receive an earned weight for completed milestone(s) # acts as a staking address
         weight: 7_0000 # 70% of the full Circle SV weight
-      - beneficiary: "Circle-SvRewardsActive-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041 # acts as a party for the remaining weight
+      - beneficiary: "Circle-SvRewardsActive-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041 # active party_id used to receive an earned weight for completed milestone(s) # acts as a party for the remaining weight
         weight: 3_0000 # 30% of the full Circle SV weight
       - beneficiary: "bitwave-finance-1::1220ab03fc0c7f77428d8f568276b64a6e6a04e340c842581a0d4e676ad7e094c1bb" # Bitwave CIP-0055
         weight: 1_0000
-      - beneficiary: "IntellectEU-SvRewardsStaking-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # acts as a staking address
+      - beneficiary: "IntellectEU-SvRewardsStaking-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # active party_id used to receive an earned weight for completed milestone(s) # acts as a staking address
         weight: 0_7000 # 70% of the full IntellectEU SV weight
-      - beneficiary: "IntellectEU-SvRewardsActive-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # acts as a party for the remaining weight
+      - beneficiary: "IntellectEU-SvRewardsActive-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # active party_id used to receive an earned weight for completed milestone(s) # acts as a party for the remaining weight
         weight: 0_3000 # 30% of the full IntellectEU SV weight
       - beneficiary: "angelhack-mainnet-1::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060" # AngelHack CIP-0053
         weight: 2_5000
@@ -42,7 +40,7 @@ approvedSvIdentities:
       - beneficiary: "zerohash-validator-1::1220d02b9d8aae4fa3425f6c6a5eb7972d6b7add35ed91914fff13bf242eba7b87b0" # Zero Hash CIP-0060 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 3_5000
       - beneficiary: "ZeroHash-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
-        weight: 4_0000
+        weight: 3_2500
       - beneficiary: "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4" # Ubyx CIP-0071 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 3_4500
       - beneficiary: "Ubyx-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
@@ -63,26 +61,16 @@ approvedSvIdentities:
         weight: 1_1000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 1_5000
-      - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
-        weight: 3_0000
       - beneficiary: "Taurus-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
         weight: 2_0000
       - beneficiary: "fb-linkprd-1::1220f36cae436fcf2c40f31656cdc0ffe8b3db5047b6f2da1f87435393efa2bcd263" # Fireblocks CIP-0072
         weight: 2_5800
-      - beneficiary: "Bitgo-mainnetValidator-1::1220339ffe631ef7d0296d957d467186b6693e89b8fa654e9acfaa2b4f53437310ff" # BitGo CIP-0074 # active party_id used to receive an earned weight for completed milestone(s)
+      - beneficiary: "Bitgo-mainnetValidator-1::1220339ffe631ef7d0296d957d467186b6693e89b8fa654e9acfaa2b4f53437310ff" # BitGo CIP-0074
         weight: 2_8667
-      - beneficiary: "BitGo-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_0000
-      - beneficiary: "Zodia-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
-        weight: 5_0000
-      - beneficiary: "Republic-sv-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44" # Republic CIP-0080 # active party_id used to receive an earned weight for completed milestone(s)
+      - beneficiary: "Republic-sv-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44" # Republic CIP-0080
         weight: 4_0000
-      - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_0000
-      - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
+      - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Talos CIP-0085
         weight: 5_4083
-      - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
-        weight: 1_0000
       - beneficiary: "Zenith-validator-1::12207fb1d16c5b29d60aad5756041bd0e2b248a54154a4d29e49f6bf35b43fd4b488" # Zenith CIP-0091 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 4_0000
       - beneficiary: "Zenith-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zenith CIP-0091 # escrow party_id added to the GhostSV-validator-1
@@ -95,27 +83,25 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "Nasdaq-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Nasdaq CIP-0097 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
-      - beneficiary: "YZiLabs-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
-        weight: 10_0000
       - beneficiary: "sgas_sv_lock::12205b32d75cf9802fee19392299bf816c4bc6ccf979721a35b751692af0ad6fa1a5" # Societe Generale CIP-0115 # active party_id used to receive an earned weight for completed milestone(s) # acts as a staking address
-        weight: 1_4200
+        weight: 1_4200 # 71% of the full Societe Generale SV weight
       - beneficiary: "sgas_sv_unlock::122088936884c44479a7fb83ed59f4f1363f124ae8e82e9681c78e4c5b2d8ac175d8" # Societe Generale CIP-0115 # active party_id used to receive an earned weight for completed milestone(s) # acts as a party for the remaining weight
-        weight: 0_5800
+        weight: 0_5800 # 29% of the full Societe Generale SV weight
       - beneficiary: "SocieteGenerale-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
         weight: 6_0000
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
         weight: 0_5000
-      - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
+      - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069
         weight: 1_0000
       - beneficiary: "Cumberland-Property-1::1220643de8d9bfdeb9187da2f770897fa50b34e17a39c0110edf91fe70d242853c25" # Ledger CIP-0069 # active party_id associated with the delegated lock relationship between Cumberland and Ledger
         weight: 1_0000
-      - beneficiary: "ft::12200b5582a91686c5278999a988a8e6ae2ff7f870834fe2deccbafaefad73db4f2d" # Franklin Templeton CIP-0118 # active party_id used to receive an earned weight for completed milestone(s)
+      - beneficiary: "franklintempleton-mainnet-1::1220143c4862a70e4ab934d587992a470b8207eb562f01e1b1dafbf906842a50f54d" # Franklin Templeton CIP-0118 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 1_0000
       - beneficiary: "FranklinTempleton-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
         weight: 4_0000
       - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
         weight: 1_0000
-      - beneficiary: "TreasurySpring-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0122 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "TreasurySpring-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Treasury Spring CIP-0122 # escrow party_id added to the GhostSV-validator-1
         weight: 4_0000
       - beneficiary: "Taurus-Wallet-1::122018406e4cb9114d63d33f04d6292acc029e2aa739e189c9fc35efb724ead0b57c" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 1_8000
