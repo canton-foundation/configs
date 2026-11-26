@@ -136,8 +136,10 @@ approvedSvIdentities:
         weight: 2_0000
       - beneficiary: "HexTrust-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # HexTrust CIP-0087
         weight: 1_0000
-      - beneficiary: "Blockdaemon-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # Blockdaemon CIP-0094
-        weight: 1_0000
+      - beneficiary: "bd::1220a8bea36c4fd2fa881ec5bd68494ff5a9360beeb999da8ae7b419ba1614900fa6" # Blockdaemon CIP-0094 - locking wallet
+        weight: 7000
+      - beneficiary: "bd::12202a7a96d9342761f3df3a522432dfae28873a0a8c556f51b68d3a1b60373bafd1" # Blockdaemon CIP-0094 - wallet
+        weight: 3000
       - beneficiary: "Tharimmune-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Tharimmune, Inc. (Canton Strategic Holdings) CIP-0102, CIP-0114 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 7_1250
       - beneficiary: "CantonStrategicHoldings-SVrewards-1::12202e772b031912f34492b914d683b07edc6bbb656df6f9b75eda8c336e8ef5de5d" # Tharimmune/CSH, .5 split https://lists.sync.global/g/tokenomics-announce/message/323 https://github.com/canton-foundation/cips/blob/main/cip-0102/cip-0102.md
