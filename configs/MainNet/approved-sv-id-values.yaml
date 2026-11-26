@@ -178,7 +178,7 @@ approvedSvIdentities:
       - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
         svRightsOwnerName: Quantstamp
         weight: 1_0000
-      - beneficiary: "TreasurySpring-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0122 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "TreasurySpring-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
         svRightsOwnerName: TreasurySpring
         weight: 4_0000
       - beneficiary: "Taurus-Wallet-1::122018406e4cb9114d63d33f04d6292acc029e2aa739e189c9fc35efb724ead0b57c" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
@@ -294,6 +294,9 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGe25jhw59y0TXgGkEmWLgCjG9D3yq4GweHzGLQ7cnbNVUqiG/ndXeFLJG1rQy6a+Ky0XfJDdcs8yCvbbsV+qqg==
     rewardWeightBps: 33_0000
     extraBeneficiaries:
+      - beneficiary: "fivenorth-mainnet1-1::12208a2c7404062865085b75b9e8a3cbca56f272c0103bc55b0e65ca7c2dd855294a"  # Five North (own share)
+        svRightsOwnerName: Five-North
+        weight: 3_0500
       - beneficiary: "bsv-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-mainnet-1
         svRightsOwnerName: Bosphorus-SV
         weight: 6_0000
