@@ -135,7 +135,9 @@ approvedSvIdentities:
       - beneficiary: "HexTrust-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 2_0000
       - beneficiary: "HexTrust-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # HexTrust CIP-0087
-        weight: 1_0000
+        weight: 8000
+      - beneficiary: "auth0_007c69aabe2d14ed21f7ab6bf93b::122058647c52460fb30fadca42a66f992909c633577ab80a5b71bb9600cbca39c0f9" # HexTrust CIP-0087, 20% of HexTrust SV rewards to MPCH
+        weight: 2000
       - beneficiary: "Blockdaemon-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # Blockdaemon CIP-0094
         weight: 1_0000
       - beneficiary: "Tharimmune-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Tharimmune, Inc. (Canton Strategic Holdings) CIP-0102, CIP-0114 # escrow party_id added to the MPCH-GHOSTvalidator-1
