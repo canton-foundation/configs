@@ -136,7 +136,7 @@ approvedSvIdentities:
         weight: 2_0000
       - beneficiary: "HexTrust-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # HexTrust CIP-0087
         weight: 8000
-      - beneficiary: "auth0_007c69aabe2d14ed21f7ab6bf93b::122058647c52460fb30fadca42a66f992909c633577ab80a5b71bb9600cbca39c0f9" # HexTrust CIP-0087, 20% of HexTrust SV rewards to MPCH
+      - beneficiary: "auth0_007c69aabe2d14ed21f7ab6bf93b::122058647c52460fb30fadca42a66f992909c633577ab80a5b71bb9600cbca39c0f9" # HexTrust CIP-0087, 20% of HexTrust SV rewards
         weight: 2000
       - beneficiary: "Blockdaemon-SVrewards-1::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # Blockdaemon CIP-0094
         weight: 1_0000
